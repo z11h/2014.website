@@ -1,0 +1,19 @@
+body {
+background-color: #483D8B;
+
+font-family: 'Roboto', sans-serif;;
+}
+h1{
+font-family: "Roboto", sans-serif;
+}
+#content{
+ width:50%;
+ background-color:white;
+ border:4px black solid;
+ border-radius:8px;
+ padding-bottom:10px;
+}
+#sig{
+text: white;
+}
+}
