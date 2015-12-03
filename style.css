@@ -7,13 +7,18 @@ h1{
 font-family: "Roboto", sans-serif;
 }
 #content{
- width:50%;
+ width:40%;
  background-color:white;
- border:4px black solid;
- border-radius:8px;
+ border:4px black;
+ border-radius:2px;
  padding-bottom:10px;
 }
-#sig{
-text: white;
+footer{
+  text-align: bottom;
+  width:40%;
+  background-color:green;
+  border:4px;
+  border-radius:2px;
+  padding-bottom:10px;
 }
 }
