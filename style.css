@@ -1,12 +1,9 @@
 body {
 background-color: #483D8B;
 
-font-family: 'Roboto', sans-serif;;
+font-family: 'Roboto', sans-serif;
 }
-h1{
-font-family: "Roboto", sans-serif;
-}
-#content{
+#intro{
  width:40%;
  background-color:white;
  border:4px black;
