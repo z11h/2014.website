@@ -1,21 +1,76 @@
 body {
 background-color: #483D8B;
-
-font-family: 'Roboto', sans-serif;
+text-align: center;
 }
 #intro{
- width:40%;
- background-color:white;
- border:4px black;
+ width: 35%;
+ background-color: white;
+ border:2px black solid;
  border-radius:2px;
  padding-bottom:10px;
+ font-family: 'Varela Round', sans-serif;
 }
-footer{
+#about{
   text-align: bottom;
-  width:40%;
-  background-color:green;
-  border:4px;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
   border-radius:2px;
   padding-bottom:10px;
+  font-family: 'Varela Round', sans-serif;
+}
+#portfolio{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+#code{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+#projects{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+#extra{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+#contact{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+#footer{
+  text-align: bottom;
+  width: 35%;
+  background-color: white;
+  border:2px black solid;
+  border-radius:2px;
+  padding-bottom:10px;
+  font-family: 'Roboto', sans-serif;
 }
 }
