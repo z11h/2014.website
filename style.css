@@ -1,76 +1,60 @@
+/*
+Possible font Families
+font-family: 'Arvo', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif;
+alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
+*/
 body {
+background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/low_poly_planet_by_sicaida1.png");
+background-repeat:no-repeat;
 background-color: #483D8B;
 text-align: center;
+color:white;
 }
 #intro{
- width: 35%;
- background-color: white;
- border:2px black solid;
- border-radius:2px;
- padding-bottom:10px;
- font-family: 'Varela Round', sans-serif;
+ color: white;
+ width: 75%;
+ font-family: 'Arvo', serif;
 }
 #about{
-  text-align: bottom;
-  width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
+  text-align: center;
+  width: 75%;
   font-family: 'Varela Round', sans-serif;
 }
-#portfolio{
-  text-align: bottom;
-  width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
-  font-family: 'Roboto', sans-serif;
-}
 #code{
-  text-align: bottom;
-  width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
+  text-align: center;
+  width: 75%;
   font-family: 'Roboto', sans-serif;
 }
 #projects{
-  text-align: bottom;
-  width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
+  text-align: center;
+  width: 75%;
   font-family: 'Roboto', sans-serif;
 }
-#extra{
-  text-align: bottom;
-  width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
+#other{
+  text-align: center;
+  width: 75%;
   font-family: 'Roboto', sans-serif;
 }
 #contact{
-  text-align: bottom;
+  text-align: center;
   width: 35%;
-  background-color: white;
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:10px;
   font-family: 'Roboto', sans-serif;
 }
 #footer{
+  color: center;
   text-align: bottom;
-  width: 35%;
-  background-color: white;
+  width: 100%;
+  /*background-color: white;
   border:2px black solid;
   border-radius:2px;
-  padding-bottom:10px;
+  padding-bottom:5px;
+  */
   font-family: 'Roboto', sans-serif;
 }
 }
