@@ -31,27 +31,27 @@ font-family: 'Varela Round', sans-serif;
 }
 #about{
   text-align: center;
-  width: 50%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #code{
   text-align: center;
-  width: 75%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #projects{
   text-align: center;
-  width: 75%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #books{
   text-align: center;
-  width: 75%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #movies{
   text-align: center;
-  width: 75%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #other{
@@ -80,6 +80,6 @@ p.note{
   padding: 30px;
   margin-top: 60px;
   background-color: purple;
-  background: rgba(0, 0, 0, 0.5)
+  background: rgba(0, 0, 0, 0.3)
 }
 }
