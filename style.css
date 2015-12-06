@@ -16,46 +16,39 @@ background-attachment: fixed;
 background-position: center;
 text-align: center;
 color:white;
+font-family: 'Varela Round', sans-serif;
 }
 #intro{
  color: white;
  width: 75%;
- font-family: 'Arvo', serif;
 }
 #about{
   text-align: center;
   width: 75%;
-  font-family: 'Varela Round', sans-serif;
 }
 #code{
   text-align: center;
   width: 75%;
-  font-family: 'Roboto', sans-serif;
 }
 #projects{
   text-align: center;
   width: 75%;
-  font-family: 'Roboto', sans-serif;
 }
 #books{
   text-align: center;
   width: 75%;
-  font-family: 'Roboto', sans-serif;
 }
 #movies{
   text-align: center;
   width: 75%;
-  font-family: 'Roboto', sans-serif;
 }
 #other{
   text-align: center;
   width: 75%;
-  font-family: 'Roboto', sans-serif;
 }
 #contact{
   text-align: center;
   width: 35%;
-  font-family: 'Roboto', sans-serif;
 }
 #footer{
   color: center;
@@ -67,6 +60,5 @@ color:white;
   border-radius:2px;
   padding-bottom:5px;
   */
-  font-family: 'Roboto', sans-serif;
 }
 }
