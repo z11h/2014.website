@@ -24,6 +24,24 @@ text-align: center;
 color:white;
 font-family: 'Varela Round', sans-serif;
 }
+.scrollToTop{
+	width:100px;
+	height:130px;
+	padding:10px;
+	text-align:center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url(<i class="fa fa-arrow-up"></i>) no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
 #intro{
  color: white;
  width: 50%;
@@ -54,9 +72,14 @@ font-family: 'Varela Round', sans-serif;
   width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
+#music{
+  text-align: center;
+  width: 70%;
+  background: rgba(0, 0, 0, 0.4)
+}
 #other{
   text-align: center;
-  width: 75%;
+  width: 70%;
   background: rgba(0, 0, 0, 0.4)
 }
 #contact{
