@@ -11,7 +11,9 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
 */
 body {
 background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/low_poly_planet_by_sicaida1.png");
-background-repeat:no-repeat;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 text-align: center;
 color:white;
 }
@@ -40,6 +42,11 @@ color:white;
   width: 75%;
   font-family: 'Roboto', sans-serif;
 }
+#movies{
+  text-align: center;
+  width: 75%;
+  font-family: 'Roboto', sans-serif;
+}
 #other{
   text-align: center;
   width: 75%;
@@ -54,6 +61,7 @@ color:white;
   color: center;
   text-align: bottom;
   width: 100%;
+  text-decoration: none;
   /*background-color: white;
   border:2px black solid;
   border-radius:2px;
