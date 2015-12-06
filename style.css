@@ -13,7 +13,7 @@ body {
 background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/low_poly_planet_by_sicaida1.png");
 
 /* center it */
-background-position: center center;
+background-position: center;
 
 /* Scale it nicely to the element */
 background-size: cover;
@@ -22,7 +22,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 text-align: center;
 color:white;
-font-family: 'Varela Round', sans-serif;
+font-family: "Proxima Nova Soft" sans-serif;
 }
 .scrollToTop{
 	width:100px;
@@ -37,7 +37,7 @@ font-family: 'Varela Round', sans-serif;
 	top:75px;
 	right:40px;
 	display:none;
-	background: url(<i class="fa fa-arrow-up"></i>) no-repeat 0px 20px;
+	background: url("<i class="fa fa-arrow-up"></i>") no-repeat 0px 20px;
 }
 .scrollToTop:hover{
 	text-decoration:none;
@@ -50,42 +50,42 @@ font-family: 'Varela Round', sans-serif;
 #about{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #code{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #projects{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #books{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #movies{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #music{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #other{
   text-align: center;
   width: 70%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #contact{
   text-align: center;
   width: 35%;
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.2)
 }
 #footer{
   color: white;
