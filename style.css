@@ -11,54 +11,75 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
 */
 body {
 background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/low_poly_planet_by_sicaida1.png");
+
+/* center it */
+background-position: center center;
+
+/* Scale it nicely to the element */
+background-size: cover;
+
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-position: center;
 text-align: center;
 color:white;
 font-family: 'Varela Round', sans-serif;
 }
 #intro{
  color: white;
- width: 75%;
+ width: 50%;
+ background: rgba(0, 0, 0, 0)
 }
 #about{
   text-align: center;
-  width: 75%;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #code{
   text-align: center;
   width: 75%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #projects{
   text-align: center;
   width: 75%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #books{
   text-align: center;
   width: 75%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #movies{
   text-align: center;
   width: 75%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #other{
   text-align: center;
   width: 75%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #contact{
   text-align: center;
   width: 35%;
+  background: rgba(0, 0, 0, 0.4)
 }
 #footer{
-  color: center;
+  color: white;
   text-align: bottom;
   width: 100%;
   text-decoration: none;
+  background-color: green;
   /*background-color: white;
   border:2px black solid;
   border-radius:2px;
   padding-bottom:5px;
   */
+}
+p.note{
+  padding: 30px;
+  margin-top: 60px;
+  background-color: purple;
+  background: rgba(0, 0, 0, 0.5)
 }
 }
