@@ -54,7 +54,6 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #intro{
  color: white;
- width: 50%;
  background: rgba(0, 0, 0, 0)
 }
 #about{
@@ -62,14 +61,14 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   width: 70%;
 	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0.0)
 }
 #code{
 	color: white;
   text-align: center;
   width: 70%;
 	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0.0)
 }
 #projects{
 	color: white;
