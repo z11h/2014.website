@@ -9,6 +9,7 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Roboto', sans-serif;
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 */
+
 html::-webkit-scrollbar {width:5;height:auto;background:#fbf2ee;}
 html::-webkit-scrollbar-corner { background:#fbf2ef; }
 html::-webkit-scrollbar-button:vertical {height:0px;display:block;}
@@ -29,30 +30,19 @@ background-position: center center;
 background-size: cover;
 
 background-repeat: no-repeat;
+
 background-attachment: fixed;
+
 text-align: center;
+
 color:white;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-.scrollToTop{
-	width:100px;
-	height:130px;
-	padding:10px;
-	text-align:center;
-	background: whiteSmoke;
-	font-weight: bold;
-	color: #444;
-	text-decoration: none;
-	position:fixed;
-	top:75px;
-	right:40px;
-	display:none;
-	background: url("<i class="fa fa-arrow-up"></i>") no-repeat 0px 20px;
-}
-.scrollToTop:hover{
-	text-decoration:none;
-}
+
 #intro{
+	margin-top: 5em;
+	margin-bottom: 3.5em;
+	font-size: 5em;
  color: white;
  background: rgba(0, 0, 0, 0)
 }
