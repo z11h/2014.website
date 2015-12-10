@@ -38,7 +38,31 @@ text-align: center;
 color:white;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
+* { box-sizing: border-box; }
+html, body {
+  height: 100%;
+  background: #fff;
+}
+.wrapper {
+  width: 100%;
+  height: 40%; /* use 100% here */
+  position: relative;
+  padding: 30px;
+  background: #fafafa;
+}
+#inner, h1 {
+  width: calc(100% - 60px);
+  max-height: calc(100% - 60px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#inner {
+  background: #fff;
+  padding: 10px;
+}
 #intro{
 	margin-top: 5em;
 	margin-bottom: 3.5em;
