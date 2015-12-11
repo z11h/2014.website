@@ -54,7 +54,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Font Awesome -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Script -->
@@ -62,6 +61,9 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -73,22 +75,30 @@
   ga('send', 'pageview');
 
 </script>
-
+<style>
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}</style>
 </head>
 
 <body>
+  <div class="alert alert-info" role="alert" style="text-align:left;font-size: 1em;"><i class="fa fa-hand-o-right fa-2x"></i>   <strong style="color:blue;">Heads up!</strong> This site is still very much a WIP! Enjoy!</div>
     <center>
+      <div class="container-fluid">
+
         <div id="intro">
           <br>
                 <h1 style="font-size: 13.5vh;">Zakaria Ridouh</h1>
-<br>
-            <h3>
+
+            <p style="font-size: 5.5vh;">
               Geek. Programmer. Hedgehog.
-            </h3>
+            </p>
           <br>
 
         </div>
 
+      </div>
         <div id="about">
           <br>
             <h2>
@@ -109,9 +119,9 @@
             CODE!
             <i class="fa fa-code fa-lg"></i>
           </h2>
-          <h5> I love to code, here is a brief intro to my world of Code!</h5>
+          <p class="lead">I love to code, here is a brief intro to my world of Code!</p>
 
-            <p>WIP<a href="pages/other.html">- Read More</a></p>
+            <p>WIP<a href="pages/code.html">- Read More</a></p>
             <br>
         </div>
 
@@ -124,7 +134,8 @@
             Projects!
             <i class="fa fa-suitcase fa-lg"></i>
           </h2>
-            <p>WIP <a href="pages/other.html">- Read More</a></p>
+          <p class="lead">...</p>
+            <p>WIP <a href="pages/projects.html">- Read More</a></p>
         </div>
         <br>
         <hr width="25%" align="center" noshade>
@@ -145,12 +156,23 @@
             Books!
             <i class="fa fa-book fa-lg"></i>
           </h2>
-            <p>I love reading book, here are some of my all time favorites along with some personal ratings! <a href="pages/other.html">- Read More</a></p>
-            <a href="pages/books.html">
-                <img src="images/hp1.jpg" alt="Harry Potter and the Sorcerer's Stone" height="25%" width="15%"/>
-            </a>
-            <br>
-        </div>
+            <p>I love reading book, here are some of my all time favorites along with some personal ratings! <a href="pages/books.html"> - Read More</a></p>
+<br>
+
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/hp1.jpg" alt="Harry Potter and the Sorcerer's Stone">
+                    <div class="caption">
+                      <h3>Harry Potter and the Sorcerer's Stone</h3>
+                      <p>Arguably one of my favorite books...ever!</p>
+                      <p><a href="pages/books.html" target="_blank"class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" role="button">Read My Review!</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
 
         <br><hr width="25%" align="center" noshade><br>
 
@@ -183,11 +205,26 @@
         <br><hr width="25%" align="center" noshade><br>
 
         <div id="other">
-          <br>
             <h2>
             Other Stuff
           </h2>
             <p>WIP <a href="pages/other.html">- Read More</a></p>
+            <p>Some of my favorite quotes!</p>
+            <blockquote>
+              <br>
+              <p>The best way to find out if you can trust somebody is to trust them.</p>
+              <footer> By <cite title="Author">Walt Whitman</cite></footer>
+            </blockquote>
+            <br>
+            <blockquote>
+              <p>The best preparation for tomorrow is doing your best today.</p>
+              <footer> By <cite title="Author">H. Jackson Brown, Jr.</cite></footer>
+            </blockquote>
+            <br>
+            <blockquote>
+              <p>Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.</p>
+              <footer> By <cite title="Author">Francis of Assisi</cite></footer>
+            </blockquote>
             <br>
         </div>
         <br>

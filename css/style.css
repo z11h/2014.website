@@ -39,9 +39,6 @@ color:white;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-html, body {
-  height: 100%;
-}
 .wrapper {
   width: 100%;
   height: 100%; /* use 100% here */
@@ -59,62 +56,51 @@ html, body {
 }
 #inner {
   background: #fff;
-  padding: 10px;
+  padding: 5px;
 }
 #intro{
-	margin-top: 5em;
+	margin-top: 4em;
 	margin-bottom: 3.5em;
 	font-size: 5em;
- color: white;
- background: rgba(0, 0, 0, 0)
+  color: white;
+  background: rgba(0, 0, 0, 0)
 }
 #about{
 	color: white;
   text-align: center;
-  width: 70%;
 	text-decoration: none;
   background: rgba(0, 0, 0, 0.0)
 }
 #code{
 	color: white;
   text-align: center;
-  width: 70%;
 	text-decoration: none;
   background: rgba(0, 0, 0, 0.0)
 }
 #projects{
 	color: white;
   text-align: center;
-  width: 70%;
 	text-decoration: none;
   background: rgba(0, 0, 0, 0)
 }
 #books{
 	color: white;
   text-align: center;
-  width: 70%;
-	text-decoration: none;
   background: rgba(0, 0, 0, 0)
 }
 #movies{
 	color: white;
   text-align: center;
-  width: 70%;
-	text-decoration: none;
   background: rgba(0, 0, 0, 0)
 }
 #music{
 	color: white;
   text-align: center;
-  width: 70%;
-	text-decoration: none;
   background: rgba(0, 0, 0, 0)
 }
 #other{
 	color: white;
   text-align: center;
-  width: 70%;
-	text-decoration: none;
   background: rgba(0, 0, 0, 0)
 }
 #contact{
@@ -127,7 +113,6 @@ html, body {
 #footer{
   color: white;
   text-align: bottom;
-  width: 100%;
   text-decoration: none;
 
   /*background-color: white;
