@@ -10,127 +10,208 @@ font-family: 'Roboto', sans-serif;
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 */
 
-html::-webkit-scrollbar {width:5;height:auto;background:#fbf2ee;}
-html::-webkit-scrollbar-corner { background:#fbf2ef; }
-html::-webkit-scrollbar-button:vertical {height:0px;display:block;}
-html::-webkit-scrollbar-button:horizontal {width:0px;display:block;}
-html::-webkit-scrollbar-thumb:vertical {background-image: url(../images/backplanet.png);border: 0.1px solid #f0ccbc;border-right:none;}
-html::-webkit-scrollbar-thumb:horizontal {background-image: url(../images/backplanet.png);border: 0.1px solid #fbf2ee;border-bottom;}
-html::-webkit-scrollbar-thumb {background image:url(../images/backplanet.png);}
-html:-webkit-scrollbar-thumb:hover {background-image:url(../images/backplanet.png)}
-html::-webkit-scrollbar-track-piece {background: 		#C8C8C8 ;}
-html::-webkit-scrollbar:vertical {border-left:0.5px solid #fbf2ef;}
-html::-webkit-scrollbar:horizontal {border-top:0.5px solid #fbf2ef;}
+// Copyright 2014-2015 Twitter, Inc.
+// Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle=document.createElement('style') msViewportStyle.appendChild( document.createTextNode( '@-ms-viewport{width:auto!important}')) document.querySelector('head').appendChild(msViewportStyle)
+}
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+html::-webkit-scrollbar {
+    width: 5;
+    height: auto;
+    background: #fbf2ee;
+}
+
+html::-webkit-scrollbar-corner {
+    background-image: url(../images/backplanet.png);
+}
+
+html::-webkit-scrollbar-button:vertical {
+    height: 0px;
+    display: block;
+}
+
+html::-webkit-scrollbar-button:horizontal {
+    width: 0px;
+    display: block;
+}
+
+html::-webkit-scrollbar-thumb:vertical {
+    background-image: url(../images/backplanet.png);
+    border: 0.1px solid #f0ccbc;
+    border-right: black;
+}
+
+html::-webkit-scrollbar-thumb:horizontal {
+    background-image: url(../images/backplanet.png);
+    border: 0.1px solid #fbf2ee;
+    border-bottom;
+}
+
+html::-webkit-scrollbar-thumb {
+    background image: url(../images/backplanet.png);
+}
+
+html:-webkit-scrollbar-thumb:hover {
+    background-image: url(../images/backplanet.png)
+}
+
+html::-webkit-scrollbar-track-piece {
+    background: white;
+}
+
+html::-webkit-scrollbar:vertical {
+    border-left: 0px solid #fbf2ef;
+}
+
+html::-webkit-scrollbar:horizontal {
+    border-top: 0px solid #fbf2ef;
+}
+
 body {
-background-image: url(../images/backplanet.png);
-/* center it */
-background-position: center center;
-
-/* Scale it nicely to the element */
-background-size: cover;
-
-background-repeat: no-repeat;
-
-background-attachment: fixed;
-
-text-align: center;
-
-color:white;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url(../images/backplanet.png);
+    /* center it */
+    background-position: center center;
+    /* Scale it nicely to the element */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    padding-top: 70px;
 }
 
 .wrapper {
-  width: 100%;
-  height: 100%; /* use 100% here */
-  position: relative;
-  padding: 30px;
+    width: 100%;
+    height: 100%;
+    /* use 100% here */
+    position: relative;
+    padding: 30px;
 }
-#inner {
-  width: calc(100% - 60px);
-  max-height: calc(100% - 60px);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-#inner {
-  background: #fff;
-  padding: 5px;
-}
-#intro{
-	margin-top: 4em;
-	margin-bottom: 3.5em;
-	font-size: 5em;
-  color: white;
-  background: rgba(0, 0, 0, 0)
-}
-#about{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0.0)
-}
-#code{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0.0)
-}
-#projects{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
-}
-#books{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#movies{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#music{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#other{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#contact{
-	color: white;
-  text-align: center;
-  width: 35%;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
-}
-#footer{
-  color: white;
-  text-align: bottom;
-  text-decoration: none;
 
-  /*background-color: white;
+#inner {
+    width: calc(100% - 60px);
+    max-height: calc(100% - 60px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#inner {
+    background: #fff;
+    padding: 5px;
+}
+
+#intro {
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+    font-size: 5em;
+    color: white;
+    background: rgba(0, 0, 0, 0)
+}
+
+#about {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.0)
+}
+
+#code {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.0)
+}
+
+#projects {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0)
+}
+
+#books {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0)
+}
+
+#movies {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0)
+}
+
+#music {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0)
+}
+
+#other {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0)
+}
+
+#contact {
+    color: white;
+    text-align: center;
+    width: 35%;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0)
+}
+
+#footer {
+    color: white;
+    text-align: bottom;
+    text-decoration: none;
+    /*background-color: white;
   border:2px black solid;
   border-radius:2px;
   padding-bottom:5px;
 	  background-color: green;
   */
 }
-#snitch{
-	height:100px;
-	width:100px;
-	position: absolute;
+
+#snitch {
+    height: 100px;
+    width: 100px;
+    position: absolute;
 }
-p.note{
-  padding: 30px;
-  margin-top: 60px;
-  background-color: purple;
-  background: rgba(0, 0, 0, 0.3)
+
+p.note {
+    padding: 30px;
+    margin-top: 60px;
+    align: center;
+    background-color: purple;
+    background: rgba(0, 0, 0, 0.3)
 }
+
+
 }
