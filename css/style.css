@@ -33,7 +33,7 @@ background-repeat: no-repeat;
 
 background-attachment: fixed;
 
-text-align: center;
+
 
 color:white;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -95,7 +95,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #music{
 	color: white;
-  text-align: center;
+
   background: rgba(0, 0, 0, 0)
 }
 #other{
