@@ -10,12 +10,6 @@ font-family: 'Roboto', sans-serif;
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 */
 
-// Copyright 2014-2015 Twitter, Inc.
-// Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle=document.createElement('style') msViewportStyle.appendChild( document.createTextNode( '@-ms-viewport{width:auto!important}')) document.querySelector('head').appendChild(msViewportStyle)
-}
-
 @-webkit-viewport {
     width: device-width;
 }
@@ -89,7 +83,8 @@ html::-webkit-scrollbar:horizontal {
 }
 
 body {
-    background-image: url(../images/backplanet.png);
+    align-items: center;
+    background-image: url('../images/backplanet.png');
     /* center it */
     background-position: center center;
     /* Scale it nicely to the element */
@@ -100,7 +95,7 @@ body {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     position: relative;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
 .wrapper {
@@ -108,13 +103,13 @@ body {
     height: 100%;
     /* use 100% here */
     position: relative;
-    padding: 30px;
+    padding: 20px;
 }
 
 #inner {
     width: calc(100% - 60px);
     max-height: calc(100% - 60px);
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -137,6 +132,7 @@ body {
 #about {
     color: white;
     text-align: center;
+    align-items: center;
     text-decoration: none;
     background: rgba(0, 0, 0, 0.0)
 }

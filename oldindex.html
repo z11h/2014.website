@@ -68,9 +68,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- Google Font Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 
     <script>
         $('body').scrollspy({
@@ -105,46 +102,11 @@
         a {
             color: #0083e8;
         }
-        
-        // Rules for sizing the icon.
-        .material-icons.md-18 {
-            font-size: 18px;
-        }
-        
-        .material-icons.md-24 {
-            font-size: 24px;
-        }
-        
-        .material-icons.md-36 {
-            font-size: 36px;
-        }
-        
-        .material-icons.md-48 {
-            font-size: 48px;
-        }
-        
-        // Rules for using icons as black on a light background.
-        .material-icons.md-dark {
-            color: rgba(0, 0, 0, 0.54);
-        }
-        
-        .material-icons.md-dark.md-inactive {
-            color: rgba(0, 0, 0, 0.26);
-        }
-        
-        // Rules for using icons as white on a dark background.
-        .material-icons.md-light {
-            color: rgba(255, 255, 255, 1);
-        }
-        
-        .material-icons.md-light.md-inactive {
-            color: rgba(255, 255, 255, 0.3);
-        }
     </style>
 </head>
-<div class="container">
 
-    <body data-spy="scroll" data-target="#navbar-example">
+<body data-spy="scroll" data-target="#navbar-example">
+    <center>
         <div class="container">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
@@ -177,7 +139,6 @@
                                 </ul>
                             </li>
                         </ul>
-
                         <form class="navbar-form navbar-left" role="search">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Search">
@@ -252,17 +213,16 @@
             </div>
 -->
             <!-- For Full Viewpoint, use <div class="container-fluid"> -->
+            <br>
+            <br>
+            <div class="alert alert-info" role="alert" style="text-align:left;font-size: 1em;margin-top:1em;"><i class="fa fa-hand-o-right fa-2x"></i> <strong style="color:blue;">Heads up!</strong> This site is still very much a WIP! Enjoy!</div>
             <center>
-                <br>
-                <br>
-                <div class="alert alert-info" role="alert" style="text-align:left;font-size: 1em;margin-top:1em;"><i class="material-icons md-48">warning</i> <strong style="color:blue;">Heads up!</strong> This site is still very much a WIP! Enjoy!</div>
-
 
 
                 <div id="intro" class="jumbotron">
                     <br>
                     <h1 style="font-size: 13.5vh;">Zakaria Ridouh</h1>
-                    <span class="material-icons mdl-badge" data-badge="♥">account_box</span>
+
                     <p style="font-size: 6vh;">
                         Geek. Programmer. High Schooler.
                     </p>
@@ -274,14 +234,11 @@
         <div id="about">
             <br>
             <h2>
-                <span>
-            <i class="material-icons md-36">face</i>
+            <i class="fa fa-user fa-lg"></i>
             A little about me!
-            <i class="material-icons md-36">face</i>
-                    </span>
+            <i class="fa fa-user fa-lg"></i>
           </h2>
-            <p style="text-align:center; color= white;">
-                A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome. <a href="pages/me.html">- Read More</a></p>
+            <p style="text-align:center; color= white;">A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome. <a href="pages/me.html">- Read More</a></p>
             <br>
 
             <!-- Wide card with share menu button -->
@@ -382,8 +339,6 @@
                             <div class="caption">
                                 <h3>Harry Potter and the Sorcerer's Stone</h3>
                                 <p>Arguably one of my favorite books...ever!</p>
-                                <div><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star_half</i></div>
-
                                 <a href="pages/books.html" target="_blank" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" role="button">Read My Review!</a>
                             </div>
                         </div>
@@ -476,8 +431,7 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="material-icons">clear</i></span></button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                     <h4 class="modal-title" id="exampleModalLabel">Message to Zakaria Ridouh <i>(WIP)</i></h4>
                                 </div>
                                 <div class="modal-body">
@@ -494,8 +448,8 @@
                                 </div>
                                 <div class="mdl-spinner mdl-js-spinner is-active"></div>
                                 <div class="modal-footer">
-                                    <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-dismiss="modal"><i class="material-icons">cancel</i> Close</button>
-                                    <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect"><i class="material-icons">send</i> Send message</button>
+                                    <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-dismiss="modal">Close</button>
+                                    <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Send message</button>
                                 </div>
                             </div>
                         </div>
@@ -517,90 +471,89 @@
 
                     <p> Version: 0.0.3 </p>
                     <br>
-                    <p>Made with <i class="fa fa-heart-o"> </i> from Earth.</p>
+                    <p>Made with ♥ from Fremont.</p>
                     <br>
                     <snitch id="snitch"><img src="images/snitchpic.png" alt="The Snitch" align="right" width="90" height="50" /></snitch>
                     <br>
                 </div>
-            </div>
-            </center>
-    </body>
+
+</body>
 
 
-    <script>
-        //Popup overlay code!
-        $('#exampleModal').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget) // Button that triggered the modal
-            var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-            var modal = $(this)
-            modal.find('.modal-title').text('New message to ' + recipient)
-            modal.find('.modal-body input').val(recipient)
-        })
+<script>
+    //Popup overlay code!
+    $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) // Button that triggered the modal
+        var recipient = button.data('whatever') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this)
+        modal.find('.modal-title').text('New message to ' + recipient)
+        modal.find('.modal-body input').val(recipient)
+    })
 
-        /*
-                                            //Smooth Scrolling!
-                                            $(document).on('click', 'a[href^="#"]', function (e) {
-                                                e.preventDefault();
-                                                var target = this.hash,
-                                                    $target = $(target);
-                                                $('html, body').stop().animate({
-                                                    'scrollTop': $target.offset().top
-                                                }, 800, 'swing', function () {
-                                                    window.location.hash = target;
-                                                });
+    /*
+                                        //Smooth Scrolling!
+                                        $(document).on('click', 'a[href^="#"]', function (e) {
+                                            e.preventDefault();
+                                            var target = this.hash,
+                                                $target = $(target);
+                                            $('html, body').stop().animate({
+                                                'scrollTop': $target.offset().top
+                                            }, 800, 'swing', function () {
+                                                window.location.hash = target;
                                             });
-                                            // Scroll Timer!
-                                            // -> This actually improves the framerate and rendering time by 95%!
-                                            //    However, the user must stop scrolling or let go of the mouse wheel...
-                                            // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll
-                                            var scrollTimer = null;
-                                            $(window).scroll(function () {
-                                                if (scrollTimer) {
-                                                    clearTimeout(scrollTimer); // clear any previous pending timer
-                                                }
-                                                scrollTimer = setTimeout(handleScroll, 100); // set new timer
-                                            });
+                                        });
+                                        // Scroll Timer!
+                                        // -> This actually improves the framerate and rendering time by 95%!
+                                        //    However, the user must stop scrolling or let go of the mouse wheel...
+                                        // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll
+                                        var scrollTimer = null;
+                                        $(window).scroll(function () {
+                                            if (scrollTimer) {
+                                                clearTimeout(scrollTimer); // clear any previous pending timer
+                                            }
+                                            scrollTimer = setTimeout(handleScroll, 100); // set new timer
+                                        });
 
-                                            function handleScroll() {
-                                                scrollTimer = null;
-                                                $(".browser").toggleClass("code", ($(document).offsetTop > 200));
-                                                $("section").each(function (i, el) {
-                                                    var el = $(el);
-                                                    // if (el.visible(true)) {
-                                                    // -> A section MUST be in the viewport and 200px from the bottom in order for
-                                                    //    some awesome CSS3 animations to happen!
-                                                    // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page
-                                                    if (($(this).offset().top) < ($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
-                                                        el.addClass("visible");
-                                                        // Load iFrames only when visible
-                                                        // -> Improves site performance by like 20 frames and lowers bandwidth.
-                                                        // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible
-                                                        // Show our element, then call our callback
-                                                        // Find the iframes within our newly-visible element
-                                                        $(this).find("iframe").not(".loaded").prop("src", function () {
-                                                            // Set their src attribute to the value of data-src
-                                                            $(this).addClass("loaded");
-                                                            return $(this).data("src");
-                                                        });
-                                                    } else {
-                                                        if (!$(this).hasClass("onceler")) {
-                                                            el.removeClass("visible");
-                                                        };
-                                                        // el.removeClass("visible");
-                                                    }
-                                                });
-                                                //Script to make Snitch Fade out, will start fluttering around soon :)
-                                                $(document).ready(function () {
-                                                    $("snitch").dblclick(function () {
-                                                        $("snitch").animate({
-                                                            right: '10%'
-                                                        });
-                                                        $("#snitch").fadeOut(1000);
+                                        function handleScroll() {
+                                            scrollTimer = null;
+                                            $(".browser").toggleClass("code", ($(document).offsetTop > 200));
+                                            $("section").each(function (i, el) {
+                                                var el = $(el);
+                                                // if (el.visible(true)) {
+                                                // -> A section MUST be in the viewport and 200px from the bottom in order for
+                                                //    some awesome CSS3 animations to happen!
+                                                // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page
+                                                if (($(this).offset().top) < ($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
+                                                    el.addClass("visible");
+                                                    // Load iFrames only when visible
+                                                    // -> Improves site performance by like 20 frames and lowers bandwidth.
+                                                    // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible
+                                                    // Show our element, then call our callback
+                                                    // Find the iframes within our newly-visible element
+                                                    $(this).find("iframe").not(".loaded").prop("src", function () {
+                                                        // Set their src attribute to the value of data-src
+                                                        $(this).addClass("loaded");
+                                                        return $(this).data("src");
                                                     });
+                                                } else {
+                                                    if (!$(this).hasClass("onceler")) {
+                                                        el.removeClass("visible");
+                                                    };
+                                                    // el.removeClass("visible");
+                                                }
+                                            });
+                                            //Script to make Snitch Fade out, will start fluttering around soon :)
+                                            $(document).ready(function () {
+                                                $("snitch").dblclick(function () {
+                                                    $("snitch").animate({
+                                                        right: '10%'
+                                                    });
+                                                    $("#snitch").fadeOut(1000);
                                                 });
-                                                */
-    </script>
+                                            });
+                                            */
+</script>
 
 </html>
