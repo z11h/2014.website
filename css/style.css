@@ -74,7 +74,6 @@ html::-webkit-scrollbar-track-piece {
     background: white;
 }
 
-<<<<<<< HEAD
 html::-webkit-scrollbar:vertical {
     border-left: 0px solid #fbf2ef;
 }
@@ -82,9 +81,6 @@ html::-webkit-scrollbar:vertical {
 html::-webkit-scrollbar:horizontal {
     border-top: 0px solid #fbf2ef;
 }
-=======
-
->>>>>>> origin/v0.0.3
 
 body {
     align-items: center;
@@ -121,7 +117,6 @@ body {
 }
 
 #inner {
-<<<<<<< HEAD
     background: #fff;
     padding: 5px;
 }
@@ -192,75 +187,6 @@ body {
     color: white;
     text-align: bottom;
     text-decoration: none;
-    /*background-color: white;
-=======
-  background: #fff;
-  padding: 5px;
-}
-#intro{
-	margin-top: 4em;
-	margin-bottom: 3.5em;
-	font-size: 5em;
-  color: white;
-  background: rgba(0, 0, 0, 0)
-}
-#about{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0.0)
-}
-#code{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0.0)
-}
-#projects{
-	color: white;
-  text-align: center;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
-}
-#books{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#movies{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#music{
-	color: white;
-
-  background: rgba(0, 0, 0, 0)
-}
-#other{
-	color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0)
-}
-#contact{
-	color: white;
-  text-align: center;
-  width: 35%;
-	text-decoration: none;
-  background: rgba(0, 0, 0, 0)
-}
-#footer{
-  color: white;
-  text-align: bottom;
-  text-decoration: none;
-
-  /*background-color: white;
->>>>>>> origin/v0.0.3
-  border:2px black solid;
-  border-radius:2px;
-  padding-bottom:5px;
-	  background-color: green;
-  */
 }
 
 #snitch {
@@ -277,5 +203,34 @@ p.note {
     background: rgba(0, 0, 0, 0.3)
 }
 
+.material-icons.md-18 {
+    font-size: 18px;
+}
 
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
 }

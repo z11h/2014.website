@@ -105,260 +105,167 @@
         a {
             color: #0083e8;
         }
-        
-        // Rules for sizing the icon.
-        .material-icons.md-18 {
-            font-size: 18px;
-        }
-        
-        .material-icons.md-24 {
-            font-size: 24px;
-        }
-        
-        .material-icons.md-36 {
-            font-size: 36px;
-        }
-        
-        .material-icons.md-48 {
-            font-size: 48px;
-        }
-        
-        // Rules for using icons as black on a light background.
-        .material-icons.md-dark {
-            color: rgba(0, 0, 0, 0.54);
-        }
-        
-        .material-icons.md-dark.md-inactive {
-            color: rgba(0, 0, 0, 0.26);
-        }
-        
-        // Rules for using icons as white on a dark background.
-        .material-icons.md-light {
-            color: rgba(255, 255, 255, 1);
-        }
-        
-        .material-icons.md-light.md-inactive {
-            color: rgba(255, 255, 255, 0.3);
-        }
     </style>
 </head>
-<div class="container">
 
-    <body data-spy="scroll" data-target="#navbar-example">
-        <div class="container">
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Zakaria Ridouh</a>
-                    </div>
-
-                    <<<<<<< HEAD <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">Link</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <form class="navbar-form navbar-left" role="search">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                </div>
-
-                                <button type="submit" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Submit</button>
-                            </form>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Link</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-
-
-            <!-- Uses a transparent header that draws on top of the layout's background -->
-            <!-- Will be back later
-            <style>
+<body>
+    <div class="container-fluid">
+        <style>
                 .demo-layout-transparent {
-                    background: url('images/backplanet.png') center /;
-                }
-                
-                .demo-layout-transparent .mdl-layout__header,
-                .demo-layout-transparent .mdl-layout__drawer-button {
-                    /* This background is dark, so we set text to white. Use 87% black instead if
+                background: url('../images/backplanet.png') center / cover;
+            }
+            
+            .demo-layout-transparent .mdl-layout__header,
+            .demo-layout-transparent .mdl-layout__drawer-button {
+                /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-                    color: white;
+                color: white;
+                body {
+                    background-image: url('../images/backplanet.png');
+                    /* center it */
+                    background-position: center center;
+                    /* Scale it nicely to the element */
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
                 }
-            </style>
-            <!-- MTD Layout! -->
-            <!--
-            <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-                <header class="mdl-layout__header mdl-layout__header--transparent">
-                    <div class="mdl-layout__header-row">
-                        <!-- Title --
-
-            <span class="mdl-layout-title">Title</span>
-            <!-- Add spacer, to align navigation to the right --
-                        <div class="mdl-layout-spacer"></div>
-                        <!-- Navigation --
-                        <nav class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="">Link</a>
-                            <a class="mdl-navigation__link" href="">Link</a>
-                            <a class="mdl-navigation__link" href="">Link</a>
-                            <a class="mdl-navigation__link" href="">Link</a>
-                        </nav>
-                    </div>
-                </header>
-                <div class="mdl-layout__drawer">
-                    <span class="mdl-layout-title">Title</span>
+        </style>
+        <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">Zakaria Ridouh</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation -->
                     <nav class="mdl-navigation">
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">About</a>
+                        <a class="mdl-navigation__link" href="">Contact</a>
+                        <a class="mdl-navigation__link" href="">Something</a>
+                        <a class="mdl-navigation__link" href="">Ok, GO!</a>
                     </nav>
                 </div>
-                <main class="mdl-layout__content">
-                </main>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Title</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">Ok</a>
+                    <a class="mdl-navigation__link" href="">About</a>
+                    <a class="mdl-navigation__link" href="">Contact</a>
+                    <a class="mdl-navigation__link" href="">Plz no</a>
+                </nav>
             </div>
+            <main class="mdl-layout__content">
+            </main>
+        </div>
+        <center>
+            <br>
+            <br>
+
+            <body>
+                <!-- Ok, begon for now, will come back soon :)
+<div class="alert alert-info" role="alert" style="text-align:left;font-size: 1em;"><i class="fa fa-hand-o-right fa-2x"></i> <strong style="color:blue;"> Heads up!</strong> This site is still very much a WIP! Enjoy!</div>
 -->
-            <!-- For Full Viewpoint, use <div class="container-fluid"> -->
-            <center>
-                <br>
-                <br>
-
-                <body>
-                    <div class="alert alert-info" role="alert" style="text-align:left;font-size: 1em;"><i class="fa fa-hand-o-right fa-2x"></i> <strong style="color:blue;"> Heads up!</strong> This site is still very much a WIP! Enjoy!</div>
-
-                    <div class="container-fluid">
+                <div class="container-fluid">
 
 
-                        <div id="intro" class="jumbotron">
-                            <br>
-                            <h1 style="font-size: 13.5vh;">Zakaria Ridouh</h1>
+                    <div id="intro" class="jumbotron">
+                        <br>
+                        <h1 style="font-size: 13.5vh;">Zakaria Ridouh</h1>
 
-                            <p style="font-size: 6vh;">
-                                Geek. Programmer. High Schooler.
-                            </p>
-                            <br>
-
-                        </div>
+                        <p style="font-size: 6vh;">
+                            Geek. Programmer. High Schooler.
+                        </p>
+                        <br>
 
                     </div>
-                    <div id="about">
-                        <br>
-                        <h2>
+
+                </div>
+                <div id="about">
+                    <br>
+                    <h2>
                 <span>
             <i class="material-icons md-36">face</i>
             A little about me!
             <i class="material-icons md-36">face</i>
                     </span>
           </h2>
-                        <p style="text-align:center; color= white;">
-                            A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome. <a href="pages/me.html">- Read More</a></p>
-                        <br>
+                    <p style="text-align:center; color= white;">
+                        A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome. <a href="pages/me.html">- Read More</a></p>
+                    <br>
 
-                        <!-- Wide card with share menu button -->
-                        <style>
-                            .demo-card-wide.mdl-card {
-                                width: 512px;
-                            }
-                            
-                            .demo-card-wide > .mdl-card__title {
-                                color: #fff;
-                                height: 176px;
-                                background: url('images/welcome_card.jpg') center / cover;
-                            }
-                            
-                            .demo-card-wide > .mdl-card__menu {
-                                color: #fff;
-                            }
-                        </style>
+                    <!-- Wide card with share menu button -->
+                    <style>
+                        .demo-card-wide.mdl-card {
+                            width: 512px;
+                        }
+                        
+                        .demo-card-wide > .mdl-card__title {
+                            color: #fff;
+                            height: 176px;
+                            background: url('images/welcome_card.jpg') center / cover;
+                        }
+                        
+                        .demo-card-wide > .mdl-card__menu {
+                            color: #fff;
+                        }
+                    </style>
 
-                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-                            <div class="mdl-card__title">
-                                <h2 class="mdl-card__title-text">About Me!</h2>
-                            </div>
-                            <div class="mdl-card__supporting-text">
-                                A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome.
-                            </div>
-                            <div class="mdl-card__actions mdl-card--border">
-                                <a href="pages/me.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">About Me!</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A little about me I'm a 15 year old high school student — a enthusiast passionate about making things awesome.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a href="pages/me.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       Read More
     </a>
-                            </div>
-                            <div class="mdl-card__menu">
-                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                                    <i class="material-icons">share</i>
-                                </button>
-                            </div>
-
-
                         </div>
-                        <br>
-                        <hr width="25%" align="center" noshade>
-                        <br>
+                        <div class="mdl-card__menu">
+                            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                <i class="material-icons">share</i>
+                            </button>
+                        </div>
 
-                        <div id="code">
-                            <br>
-                            <h2>
+
+                    </div>
+                    <br>
+                    <hr width="25%" align="center" noshade>
+                    <br>
+
+                    <div id="code">
+                        <br>
+                        <h2>
             <i class="fa fa-code fa-lg"></i>
             CODE!
             <i class="fa fa-code fa-lg"></i>
           </h2>
-                            <p class="lead">I love to code, here is a brief intro to my world of Code!</p>
+                        <p class="lead">I love to code, here is a brief intro to my world of Code!</p>
 
-                            <p>WIP<a href="pages/code.html">- Read More</a></p>
-                            <br>
-                        </div>
-
+                        <p>WIP<a href="pages/code.html">- Read More</a></p>
                         <br>
-                        <hr width="25%" align="center" noshade>
-                        <br>
+                    </div>
 
-                        <div id="projects">
-                            <br>
-                            <h2>
+                    <br>
+                    <hr width="25%" align="center" noshade>
+                    <br>
+
+                    <div id="projects">
+                        <br>
+                        <h2>
             <i class="fa fa-suitcase fa-lg"></i>
             Projects!
             <i class="fa fa-suitcase fa-lg"></i>
           </h2>
-                            <p class="lead">...</p>
-                            <p>WIP <a href="pages/projects.html">- Read More</a></p>
-                        </div>
-                        <br>
-                        <hr width="25%" align="center" noshade>
-                        <br>
-                        <!-- Possible Entertainement Section here
+                        <p class="lead">...</p>
+                        <p>WIP <a href="pages/projects.html">- Read More</a></p>
+                    </div>
+                    <br>
+                    <hr width="25%" align="center" noshade>
+                    <br>
+                    <!-- Possible Entertainement Section here
         <div id="entertainement">
       <h3>
         <i class="fa fa-book fa-lg"></i> Entertainement <i class="fa fa-book fa-lg"></i>
@@ -367,190 +274,174 @@
       <p>Images of Books go here and Placeholder</p>
         </div>
       -->
-                        <div id="books">
-                            <br>
-                            <h2>
+                    <div id="books">
+                        <br>
+                        <h2>
             <i class="fa fa-book fa-lg"></i>
             Books!
             <i class="fa fa-book fa-lg"></i>
           </h2>
-                            <<<<<<< HEAD <p>I love reading book, here are some of my all time favorites along with some personal ratings! <a href="pages/books.html"> - Read More</a></p>
-                                <br>
+                        <<<<<<< HEAD <p>I love reading book, here are some of my all time favorites along with some personal ratings! <a href="pages/books.html"> - Read More</a></p>
+                            <br>
 
 
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-4">
-                                        <div class="thumbnail">
-                                            <img class="img-responsive img-thumbnail" src="images/hp1.jpg" alt="Harry Potter and the Sorcerer's Stone">
-                                            <div class="caption">
-                                                <h3>Harry Potter and the Sorcerer's Stone</h3>
-                                                <p>Arguably one of my favorite books...ever!</p>
-                                                <div><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star_half</i></div>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img class="img-responsive img-thumbnail" src="images/hp1.jpg" alt="Harry Potter and the Sorcerer's Stone">
+                                        <div class="caption">
+                                            <h3>Harry Potter and the Sorcerer's Stone</h3>
+                                            <p>Arguably one of my favorite books...ever!</p>
+                                            <div><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star_half</i></div>
 
-                                                <a href="pages/books.html" target="_blank" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" role="button">Read My Review!</a>
-                                            </div>
+                                            <a href="pages/books.html" target="_blank" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" role="button">Read My Review!</a>
                                         </div>
-                                        =======
-                                        <p>I love reading book, here are some of my all time favorites along with some personal ratings! <a href="pages/books.html"> - Read More</a></p>
+                                    </div>
 
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <img src="images/hp1.jpg" alt="Harry Potter and the Sorcerer's Stone">
-                                                    <div class="caption">
-                                                        <h3>Harry Potter and the Sorcerer's Stone</h3>
-                                                        <p>Arguably one of my favorite books...ever!</p>
-                                                        <p><a href="pages/books.html" target="_blank" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" role="button">Read My Review!</a></p>
-                                                        >>>>>>> origin/v0.0.3
-                                                    </div>
-                                                </div>
 
-                                                <<<<<<< HEAD <br>
-                                                    <hr width="25%" align="center" noshade>
-                                                    <br> =======
-                                                    <br>
-                                                    <hr width="35%" align="center" noshade>
-                                                    <br> >>>>>>> origin/v0.0.3
+                                    <br>
+                                    <hr width="35%" align="center" noshade>
+                                    <br>
 
-                                                    <!-- Movies -->
+                                    <!-- Movies -->
 
-                                                    <div id="movies">
-                                                        <br>
-                                                        <h2>
+                                    <div id="movies">
+                                        <br>
+                                        <h2>
             <i class="fa fa-film fa-lg"></i>
             Movies!
             <i class="fa fa-film fa-lg"></i>
           </h2>
-                                                        <h5>I love watching movies, here are some of my all time favorite! <a href="pages/movies.html">- Read More</a></h5>
-                                                        <br>
+                                        <h5>I love watching movies, here are some of my all time favorite! <a href="pages/movies.html">- Read More</a></h5>
+                                        <br>
 
-                                                    </div>
-                                                    <br>
+                                    </div>
+                                    <br>
 
-                                                    <br>
-                                                    <hr width="25%" align="center" noshade>
-                                                    <br>
+                                    <br>
+                                    <hr width="25%" align="center" noshade>
+                                    <br>
 
-                                                    <div id="music">
-                                                        <br>
-                                                        <h2><i class="fa fa-music fa-lg"></i>
+                                    <div id="music">
+                                        <br>
+                                        <h2><i class="fa fa-music fa-lg"></i>
              Music!
              <i class="fa fa-music fa-lg"></i>
           </h2>
 
-                                                        <p>I don't really listen to much music, but when I do, it's the best of the best (IMO)! <a href="pages/music.html">- Read More</a></p>
-                                                        <h6> Stryv - First Light </h6>
-                                                        <p> By Far my favorite piece of music! </p>
-                                                        <iframe width="10px" height="100px" src="https://www.youtube.com/embed/WLaJMg64ygA" frameborder="0" allowfullscreen></iframe>
-                                                        <br>
-                                                    </div>
-                                                    >>>>>>> origin/v0.0.3
+                                        <p>I don't really listen to much music, but when I do, it's the best of the best (IMO)! <a href="pages/music.html">- Read More</a></p>
+                                        <h6> Stryv - First Light </h6>
+                                        <p> By Far my favorite piece of music! </p>
+                                        <iframe width="10px" height="100px" src="https://www.youtube.com/embed/WLaJMg64ygA" frameborder="0" allowfullscreen></iframe>
+                                        <br>
+                                    </div>
 
-                                                    <br>
-                                                    <hr width="25%" align="center" noshade>
-                                                    <br>
 
-                                                    <!-- Other! -->
+                                    <br>
+                                    <hr width="25%" align="center" noshade>
+                                    <br>
 
-                                                    <div id="other">
-                                                        <h2>
+                                    <!-- Other! -->
+
+                                    <div id="other">
+                                        <h2>
             Other Stuff
           </h2>
-                                                        <p>WIP <a href="pages/other.html">- Read More</a></p>
+                                        <p>WIP <a href="pages/other.html">- Read More</a></p>
 
-                                                        <p>Some of my favorite quotes!</p>
-                                                        <blockquote>
-                                                            <br>
-                                                            <p>The best way to find out if you can trust somebody is to trust them.</p>
-                                                            <footer> By <cite title="Author">Walt Whitman</cite></footer>
-                                                        </blockquote>
-                                                        <br>
-                                                        <blockquote>
-                                                            <p>The best preparation for tomorrow is doing your best today.</p>
-                                                            <footer> By <cite title="Author">H. Jackson Brown, Jr.</cite></footer>
-                                                        </blockquote>
-                                                        <br>
-                                                        <blockquote>
-                                                            <p>Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.</p>
-                                                            <footer> By <cite title="Author">Francis of Assisi</cite></footer>
-                                                        </blockquote>
-                                                        <br>
-                                                    </div>
-                                                    <br>
-                                                    <hr width="25%" align="center" noshade>
-                                                    <br>
+                                        <p>Some of my favorite quotes!</p>
+                                        <blockquote>
+                                            <br>
+                                            <p>The best way to find out if you can trust somebody is to trust them.</p>
+                                            <footer> By <cite title="Author">Walt Whitman</cite></footer>
+                                        </blockquote>
+                                        <br>
+                                        <blockquote>
+                                            <p>The best preparation for tomorrow is doing your best today.</p>
+                                            <footer> By <cite title="Author">H. Jackson Brown, Jr.</cite></footer>
+                                        </blockquote>
+                                        <br>
+                                        <blockquote>
+                                            <p>Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.</p>
+                                            <footer> By <cite title="Author">Francis of Assisi</cite></footer>
+                                        </blockquote>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <hr width="25%" align="center" noshade>
+                                    <br>
 
-                                                    <!-- Contact -->
+                                    <!-- Contact -->
 
-                                                    <div id="contact">
-                                                        <br>
-                                                        <h2>
+                                    <div id="contact">
+                                        <br>
+                                        <h2>
             <i class="fa fa-envelope fa-lg"></i> Contact <i class="fa fa-envelope fa-lg"></i>
           </h2>
-                                                        <p>Shoot me a message and tell me about your day, or lets just have a chat! I would love to work with you on any projects!</p>
+                                        <p>Shoot me a message and tell me about your day, or lets just have a chat! I would love to work with you on any projects!</p>
 
-                                                        <p>Email: zridouh@live.com</p>
+                                        <p>Email: zridouh@live.com</p>
 
-                                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#exampleModal" data-whatever="zridouh@live.com">Message Me!</button>
+                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#exampleModal" data-whatever="zridouh@live.com">Message Me!</button>
 
-                                                        <div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel">
-                                                            <div class="modal-dialog" role="document">
-                                                                <div class="modal-content">
-                                                                    <div class="modal-header">
+                                        <div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
 
-                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="material-icons">clear</i></span></button>
-                                                                        <h4 class="modal-title" id="exampleModalLabel">Message to Zakaria Ridouh <i>(WIP)</i></h4>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <form>
-                                                                            <div class="form-group">
-                                                                                <label for="recipient-name" class="control-label">Recipient:</label>
-                                                                                <input type="text" class="form-control" id="recipient-name">
-                                                                            </div>
-                                                                            <div class="form-group">
-                                                                                <label for="message-text" class="control-label">Message:</label>
-                                                                                <textarea class="form-control" id="message-text"></textarea>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
-                                                                    <div class="mdl-spinner mdl-js-spinner is-active"></div>
-                                                                    <div class="modal-footer">
-                                                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-dismiss="modal"><i class="material-icons">cancel</i> Close</button>
-                                                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect"><i class="material-icons">send</i> Send message</button>
-                                                                    </div>
-                                                                </div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="material-icons">clear</i></span></button>
+                                                        <h4 class="modal-title" id="exampleModalLabel">Message to Zakaria Ridouh <i>(WIP)</i></h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <label for="recipient-name" class="control-label">Recipient:</label>
+                                                                <input type="text" class="form-control" id="recipient-name">
                                                             </div>
-                                                        </div>
-
-                                                        <!-- EASTER EGGS! -->
-
-                                                        <p class="note">P.S There are 25 Easter Eggs in this site, try to find them all!</p>
-
+                                                            <div class="form-group">
+                                                                <label for="message-text" class="control-label">Message:</label>
+                                                                <textarea class="form-control" id="message-text"></textarea>
+                                                            </div>
+                                                        </form>
                                                     </div>
-                                                    <br>
-                                                    <br>
-                                                    <div id="footer">
-                                                        <br>
-                                                        <br>
-                                                        <p>This site is Open Source! <a href="https://github.com/TheMightyCraken/themightycraken.github.io"><i class="fa fa-github-alt"> GitHub</i></a>, if you find a
-                                                            <a href="https://github.com/TheMightyCraken/themightycraken.github.io/issues"> <i class="fa fa-bug"></i> Bug</a> please report it!</p>
-                                                        <br>
-
-                                                        <p> Version: 0.0.3 </p>
-                                                        <br>
-                                                        <p>Made with <i class="fa fa-heart-o"> </i> from Earth.</p>
-                                                        <br>
-                                                        <snitch id="snitch"><img src="images/snitchpic.png" alt="The Snitch" align="right" width="90" height="50" /></snitch>
-                                                        <br>
+                                                    <div class="mdl-spinner mdl-js-spinner is-active"></div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" data-dismiss="modal"><i class="material-icons">cancel</i> Close</button>
+                                                        <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect"><i class="material-icons">send</i> Send message</button>
                                                     </div>
+                                                </div>
                                             </div>
-            </center>
-            </body>
+                                        </div>
 
-            <script>
-                //Popup overlay code! $('#exampleModal').on('show.bs.modal', function (event) { var button = $(event.relatedTarget) // Button that triggered the modal var recipient = button.data('whatever') // Extract info from data-* attributes // If necessary, you could initiate an AJAX request here (and then do the updating in a callback). // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead. var modal = $(this) modal.find('.modal-title').text('New message to ' + recipient) modal.find('.modal-body input').val(recipient) }) /* //Smooth Scrolling! $(document).on('click', 'a[href^="#"]', function (e) { e.preventDefault(); var target = this.hash, $target = $(target); $('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 800, 'swing', function () { window.location.hash = target; }); }); // Scroll Timer! // -> This actually improves the framerate and rendering time by 95%! // However, the user must stop scrolling or let go of the mouse wheel... // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll var scrollTimer = null; $(window).scroll(function () { if (scrollTimer) { clearTimeout(scrollTimer); // clear any previous pending timer } scrollTimer = setTimeout(handleScroll, 100); // set new timer }); function handleScroll() { scrollTimer = null; $(".browser").toggleClass("code", ($(document).offsetTop > 200)); $("section").each(function (i, el) { var el = $(el); // if (el.visible(true)) { // -> A section MUST be in the viewport and 200px from the bottom in order for // some awesome CSS3 animations to happen! // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page if (($(this).offset().top)
-                //($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
-                //el.addClass("visible"); // Load iFrames only when visible // -> Improves site performance by like 20 frames and lowers bandwidth. // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible // Show our element, then call our callback // Find the iframes within our newly-visible element $(this).find("iframe").not(".loaded").prop("src", function () { // Set their src attribute to the value of data-src $(this).addClass("loaded"); return $(this).data("src"); }); } else { if (!$(this).hasClass("onceler")) { el.removeClass("visible"); }; // el.removeClass("visible"); } }); //Script to make Snitch Fade out, will start fluttering around soon :) $(document).ready(function () { $("snitch").dblclick(function () { $("snitch").animate({ right: '10%' }); $("#snitch").fadeOut(1000); }); }); */
-            </script>
+                                        <!-- EASTER EGGS! -->
+
+                                        <p class="note">P.S There are 25 Easter Eggs in this site, try to find them all!</p>
+
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div id="footer">
+                                        <br>
+                                        <br>
+                                        <p>This site is Open Source! <a href="https://github.com/TheMightyCraken/themightycraken.github.io"><i class="fa fa-github-alt"> GitHub</i></a>, if you find a
+                                            <a href="https://github.com/TheMightyCraken/themightycraken.github.io/issues"> <i class="fa fa-bug"></i> Bug</a> please report it!</p>
+                                        <br>
+
+                                        <p> Version: 0.0.3 </p>
+                                        <br>
+                                        <p>Made with <i class="fa fa-heart-o"> </i> from Earth.</p>
+                                        <br>
+                                        <snitch id="snitch"><img src="images/snitchpic.png" alt="The Snitch" align="right" width="90" height="50" /></snitch>
+                                        <br>
+                                    </div>
+                                </div>
+        </center>
+        </body>
+
+        <script>
+            //Popup overlay code! $('#exampleModal').on('show.bs.modal', function (event) { var button = $(event.relatedTarget) // Button that triggered the modal var recipient = button.data('whatever') // Extract info from data-* attributes // If necessary, you could initiate an AJAX request here (and then do the updating in a callback). // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead. var modal = $(this) modal.find('.modal-title').text('New message to ' + recipient) modal.find('.modal-body input').val(recipient) }) /* //Smooth Scrolling! $(document).on('click', 'a[href^="#"]', function (e) { e.preventDefault(); var target = this.hash, $target = $(target); $('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 800, 'swing', function () { window.location.hash = target; }); }); // Scroll Timer! // -> This actually improves the framerate and rendering time by 95%! // However, the user must stop scrolling or let go of the mouse wheel... // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll var scrollTimer = null; $(window).scroll(function () { if (scrollTimer) { clearTimeout(scrollTimer); // clear any previous pending timer } scrollTimer = setTimeout(handleScroll, 100); // set new timer }); function handleScroll() { scrollTimer = null; $(".browser").toggleClass("code", ($(document).offsetTop > 200)); $("section").each(function (i, el) { var el = $(el); // if (el.visible(true)) { // -> A section MUST be in the viewport and 200px from the bottom in order for // some awesome CSS3 animations to happen! // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page if (($(this).offset().top)
+            //($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
+            //el.addClass("visible"); // Load iFrames only when visible // -> Improves site performance by like 20 frames and lowers bandwidth. // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible // Show our element, then call our callback // Find the iframes within our newly-visible element $(this).find("iframe").not(".loaded").prop("src", function () { // Set their src attribute to the value of data-src $(this).addClass("loaded"); return $(this).data("src"); }); } else { if (!$(this).hasClass("onceler")) { el.removeClass("visible"); }; // el.removeClass("visible"); } }); //Script to make Snitch Fade out, will start fluttering around soon :) $(document).ready(function () { $("snitch").dblclick(function () { $("snitch").animate({ right: '10%' }); $("#snitch").fadeOut(1000); }); }); */
+        </script>
 
 </html>
