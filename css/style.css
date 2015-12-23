@@ -36,17 +36,8 @@ html::-webkit-scrollbar {
     background: #fbf2ee;
 }
 
-html::-webkit-scrollbar-corner {
-    background-image: url(../images/backplanet.png);
-}
-
 html::-webkit-scrollbar-button:vertical {
     height: 0px;
-    display: block;
-}
-
-html::-webkit-scrollbar-button:horizontal {
-    width: 0px;
     display: block;
 }
 
@@ -78,10 +69,6 @@ html::-webkit-scrollbar:vertical {
     border-left: 0px solid #fbf2ef;
 }
 
-html::-webkit-scrollbar:horizontal {
-    border-top: 0px solid #fbf2ef;
-}
-
 body {
     align-items: center;
     background-image: url('../images/backplanet.png');
@@ -93,9 +80,6 @@ body {
     background-attachment: fixed;
     text-align: center;
     color: white;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    position: relative;
-    /* padding-top: 70px; */
 }
 
 .wrapper {
@@ -177,8 +161,6 @@ body {
 
 #contact {
     color: white;
-    text-align: center;
-    width: 35%;
     text-decoration: none;
     background: rgba(0, 0, 0, 0)
 }
@@ -195,12 +177,13 @@ body {
     position: absolute;
 }
 
-p.note {
+#note {
     padding: 30px;
     margin-top: 60px;
     align: center;
-    background-color: purple;
-    background: rgba(0, 0, 0, 0.3)
+    background-color: blueviolet;
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
 }
 
 .material-icons.md-18 {
