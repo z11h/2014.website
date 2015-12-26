@@ -1,153 +1,155 @@
-/*
+    /*
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 */
-
-@-webkit-viewport {
-    width: device-width;
-}
-
-@-moz-viewport {
-    width: device-width;
-}
-
-@-ms-viewport {
-    width: device-width;
-}
-
-@-o-viewport {
-    width: device-width;
-}
-
-@viewport {
-    width: device-width;
-}
-
-body {
-    align-items: center;
-    background-image: url('../images/starwars.jpg');
-    /* center it */
-    background-position: center center;
-    /* Scale it nicely to the element */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-    color: white;
-}
-
-#intro {
-    padding-top: 3.5em;
-    padding-bottom: 2.5em;
-    margin-top: 2em;
-    margin-bottom: 3.5em;
-    font-size: 5em;
-    color: white;
-    background: rgba(0, 0, 0, 0);
-    text-align: left;
-    padding-left: 5%;
-}
-
-#about {
-    color: white;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.0);
-}
-
-#code {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.0);
-}
-
-#projects {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0);
-}
-
-#books {
-    color: white;
-    text-align: center;
-    background: rgba(0, 0, 0, 0);
-}
-
-#movies {
-    color: white;
-    text-align: center;
-    background: rgba(0, 0, 0, 0);
-}
-
-#music {
-    color: white;
-    text-align: center;
-    background: rgba(0, 0, 0, 0);
-}
-
-#other {
-    color: white;
-    text-align: center;
-    background: rgba(0, 0, 0, 0);
-}
-
-#contact {
-    color: white;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0);
-}
-
-#footer {
-    color: white;
-    text-align: bottom;
-    text-decoration: none;
-}
-
-#snitch {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-}
-
-#note {
-    padding: 30px;
-    margin-top: 60px;
-    align: center;
-    background-color: blueviolet;
-    background: rgba(0, 0, 0, 0.5);
-    width: 80%;
-}
-
-.material-icons.md-18 {
-    font-size: 18px;
-}
-
-.material-icons.md-24 {
-    font-size: 24px;
-}
-
-.material-icons.md-36 {
-    font-size: 36px;
-}
-
-.material-icons.md-48 {
-    font-size: 48px;
-}
-
-.material-icons.md-dark {
-    color: rgba(0, 0, 0, 0.54);
-}
-
-.material-icons.md-dark.md-inactive {
-    color: rgba(0, 0, 0, 0.26);
-}
-
-.material-icons.md-light {
-    color: rgba(255, 255, 255, 1);
-}
-
-.material-icons.md-light.md-inactive {
-    color: rgba(255, 255, 255, 0.3);
-}
+    
+    @-webkit-viewport {
+        width: device-width;
+    }
+    
+    @-moz-viewport {
+        width: device-width;
+    }
+    
+    @-ms-viewport {
+        width: device-width;
+    }
+    
+    @-o-viewport {
+        width: device-width;
+    }
+    
+    @viewport {
+        width: device-width;
+    }
+    
+    body {
+        align-items: center;
+        background-image: url('../images/starwars.jpg');
+        /* center it */
+        background-position: center center;
+        /* Scale it nicely to the element */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        color: white;
+    }
+    
+    #intro {
+        /*
+    *Padding is inside element (and affects the actual size of the element, margin is outside 
+    *padding-top: 20%;
+    *padding-bottom: 30%;
+    */
+        margin-top: 25%;
+        margin-bottom: 20%;
+        margin-left: 4.5%;
+        font-size: 5em;
+        text-align: left;
+        color: white;
+    }
+    
+    #about {
+        color: white;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.0);
+    }
+    
+    #code {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.0);
+    }
+    
+    #projects {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #books {
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #movies {
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #music {
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #other {
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #contact {
+        color: white;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    #footer {
+        color: white;
+        text-align: bottom;
+        text-decoration: none;
+    }
+    
+    #snitch {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+    }
+    
+    #note {
+        padding: 30px;
+        margin-top: 60px;
+        align: center;
+        background-color: blueviolet;
+        background: rgba(0, 0, 0, 0.5);
+        width: 80%;
+    }
+    
+    .material-icons.md-18 {
+        font-size: 18px;
+    }
+    
+    .material-icons.md-24 {
+        font-size: 24px;
+    }
+    
+    .material-icons.md-36 {
+        font-size: 36px;
+    }
+    
+    .material-icons.md-48 {
+        font-size: 48px;
+    }
+    
+    .material-icons.md-dark {
+        color: rgba(0, 0, 0, 0.54);
+    }
+    
+    .material-icons.md-dark.md-inactive {
+        color: rgba(0, 0, 0, 0.26);
+    }
+    
+    .material-icons.md-light {
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .material-icons.md-light.md-inactive {
+        color: rgba(255, 255, 255, 0.3);
+    }
