@@ -60,18 +60,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Script -->
-    <script src="js/home.js"></script>
-
+    <script src="assets/js/home.js"></script>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
     <!-- Google Font Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        //When page loads
+        $(document).ready(function () {
+
+            alert("Welcome!");
+
+        });
+    </script>
 </head>
 
 <body>
@@ -124,7 +128,6 @@
             <h2>
             <i class="material-icons md-36 ">face</i>
             Hey, Im Zak!
-            <i class="material-icons md-36 ">face</i>
           </h2>
 
             <p class="lead ">Hey there! My name is Zakaria Ridouh, but my friends call me Zak. <small>I'm a 15 year old high school student and I love to code! I'm interested in anything that works. I also <b>love</b> hackathons and making things with my friends!</p>
@@ -384,51 +387,51 @@
 
         <div id="note">
             <p>P.S There are 25 Easter Eggs in this site, try to find them all!</p>
-        </div>
-        <footer id="footer ">
-
             <p>This site is Open Source! <a href="https://github.com/TheMightyCraken/themightycraken.github.io "><i class="fa fa-github-alt "> GitHub</i></a>, if you find a
                 <a href="https://github.com/TheMightyCraken/themightycraken.github.io/issues "> <i class="fa fa-bug "></i> Bug</a> please report it!</p>
+        </div>
 
+        <footer id="footer ">
 
             <p> Version: 0.0.4 </p>
 
-            <p>Made with <i class="fa fa-heart-o "> </i> from Earth.</p>
             <!--
             <div id="snitch "><img src="images/snitchpic.png " alt="The Snitch " align="right " width="90 " height="50 " /></div>
             -->
             </div>
 
-
-            <div id="copy ">
-                &copy; Zakaria Ridouh 2015
-            </div>
-
         </footer>
-
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Made with <i class="fa fa-heart"></i> by Zakaria Ridouh.</small>
+        </div>
+        <!--//container-->
+        </footer>
+        <!--//footer-->
 
     </center>
 
 </body>
 <style>
-            /*
+    /*
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 */
-        a:hover,
-        a:visited,
-        a:link,
-        a:active {
-            text-decoration: none;
-        }
-        
-        a {
-            color: #0083e8;
-        }
-        
-        body {
-            color: white;
-        }
-
+    
+    a:hover,
+    a:visited,
+    a:link,
+    a:active {
+        text-decoration: none;
+    }
+    
+    a {
+        color: #0083e8;
+    }
+    
+    body {
+        color: white;
+    }
     
     @-webkit-viewport {
         width: device-width;
@@ -452,7 +455,7 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
     
     body {
         align-items: center;
-        background-image: url('images/earth.png');
+        background-image: url('assets/images/earth.png');
         /* center it */
         background-position: center center;
         /* Scale it nicely to the element */
@@ -607,22 +610,42 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
     .material-icons.md-light.md-inactive {
         color: rgba(255, 255, 255, 0.3);
     }
-    </style>
+    
+    .footer {
+        background: #32383e;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    .footer .copyright {
+        line-height: 1.6;
+        color: #a1aab4;
+        font-size: 14px;
+    }
+    
+    .footer a {
+        color: #fff;
+    }
+    
+    .footer .fa-heart {
+        color: #fb866a;
+    }
+</style>
 <script>
     //Popup overlay code! 
     $('#exampleModal').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget)
-                // Button that triggered the modal 
-            var recipient = button.data('whatever')
-                // Extract info from data-* attributes 
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback). 
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead. 
-            var modal = $(this) modal.find('.modal-title').text('New message to ' + recipient) modal.find('.modal-body input').val(recipient)
-        })
+        var button = $(event.relatedTarget)
+            // Button that triggered the modal 
+        var recipient = button.data('whatever')
+            // Extract info from data-* attributes 
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback). 
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead. 
+        var modal = $(this) modal.find('.modal-title').text('New message to ' + recipient) modal.find('.modal-body input').val(recipient)
+    })
     $('body').scrollspy({
-                target: '#navbar-example'
-            })
-    //Google Analytics
+            target: '#navbar-example'
+        })
+        //Google Analytics
 
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -639,10 +662,10 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
     ga('create', 'UA-71084125-1', 'auto');
     ga('send', 'pageview');
 
-    
-        /* //Smooth Scrolling! $(document).on('click', 'a[href^="# "]', function (e) { e.preventDefault(); var target = this.hash, $target = $(target); $('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 800, 'swing', function () { window.location.hash = target; }); }); // Scroll Timer! // -> This actually improves the framerate and rendering time by 95%! // However, the user must stop scrolling or let go of the mouse wheel... // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll var scrollTimer = null; $(window).scroll(function () { if (scrollTimer) { clearTimeout(scrollTimer); // clear any previous pending timer } scrollTimer = setTimeout(handleScroll, 100); // set new timer }); function handleScroll() { scrollTimer = null; $(".browser ").toggleClass("code ", ($(document).offsetTop > 200)); $("section ").each(function (i, el) { var el = $(el); // if (el.visible(true)) { // -> A section MUST be in the viewport and 200px from the bottom in order for // some awesome CSS3 animations to happen! // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page if (($(this).offset().top)
-        //($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
-        //el.addClass("visible "); // Load iFrames only when visible // -> Improves site performance by like 20 frames and lowers bandwidth. // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible // Show our element, then call our callback // Find the iframes within our newly-visible element $(this).find("iframe ").not(".loaded ").prop("src ", function () { // Set their src attribute to the value of data-src $(this).addClass("loaded "); return $(this).data("src "); }); } else { if (!$(this).hasClass("onceler ")) { el.removeClass("visible "); }; // el.removeClass("visible "); } }); //Script to make Snitch Fade out, will start fluttering around soon :) $(document).ready(function () { $("snitch ").dblclick(function () { $("snitch ").animate({ right: '10%' }); $("#snitch ").fadeOut(1000); }); }); */
+
+    /* //Smooth Scrolling! $(document).on('click', 'a[href^="# "]', function (e) { e.preventDefault(); var target = this.hash, $target = $(target); $('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 800, 'swing', function () { window.location.hash = target; }); }); // Scroll Timer! // -> This actually improves the framerate and rendering time by 95%! // However, the user must stop scrolling or let go of the mouse wheel... // -@ http://stackoverflow.com/questions/15591002/jquery-setinterval-or-scroll var scrollTimer = null; $(window).scroll(function () { if (scrollTimer) { clearTimeout(scrollTimer); // clear any previous pending timer } scrollTimer = setTimeout(handleScroll, 100); // set new timer }); function handleScroll() { scrollTimer = null; $(".browser ").toggleClass("code ", ($(document).offsetTop > 200)); $("section ").each(function (i, el) { var el = $(el); // if (el.visible(true)) { // -> A section MUST be in the viewport and 200px from the bottom in order for // some awesome CSS3 animations to happen! // -@ http://stackoverflow.com/questions/16569941/use-jquery-to-detect-when-an-element-is-near-the-bottom-of-the-page if (($(this).offset().top)
+    //($(window).scrollTop() + $(window).height() - 200) && el.visible(true)) {
+    //el.addClass("visible "); // Load iFrames only when visible // -> Improves site performance by like 20 frames and lowers bandwidth. // -@ http://stackoverflow.com/questions/19482601/have-iframe-load-when-visible // Show our element, then call our callback // Find the iframes within our newly-visible element $(this).find("iframe ").not(".loaded ").prop("src ", function () { // Set their src attribute to the value of data-src $(this).addClass("loaded "); return $(this).data("src "); }); } else { if (!$(this).hasClass("onceler ")) { el.removeClass("visible "); }; // el.removeClass("visible "); } }); //Script to make Snitch Fade out, will start fluttering around soon :) $(document).ready(function () { $("snitch ").dblclick(function () { $("snitch ").animate({ right: '10%' }); $("#snitch ").fadeOut(1000); }); }); */
 </script>
 
 </html>
