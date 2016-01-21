@@ -10,15 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
     <!-- For all the mobile users, of course :)-->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale = 1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale = 1.0,maximum-scale=1.0,user-scalable=no" , minimal-ui>
 
     <meta name="keywords" content="zakaria ridouh, site">
     <meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <meta name="description" content="Zakaria Ridouh's Site">
 
-    <!-- <link type="text/css" rel="stylesheet" href="css/style.css" /> -->
-
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.css" />
     <!-- Mobile features -->
     <link rel="apple-touch-startup-image" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon.ico">
@@ -68,17 +68,14 @@
 
     <!-- Google Font Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/wow.min.js"></script>
     <script>
-        //When page loads
-        $(document).ready(function () {
-
-            alert("Welcome!");
-
-        });
+    new WOW().init();
     </script>
+
 </head>
 
-<body>
+<body class="animated fadeInUpBig">
 
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--transparent">
@@ -90,7 +87,7 @@
                 <!-- Navigation -->
                 <nav class="mdl-navigation">
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="#about">About</a>
-                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Portfolio/CV</a>
+                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="assets/pages/cv.html">Portfolio/CV</a>
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Projects</a>
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Entertainement</a>
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Contact</a>
@@ -119,11 +116,11 @@
 
         <div id="intro">
             <br>
-            <h1 style="font-size: 150%;">Zakaria Ridouh <small>Geek. Programmer. High Schooler.</small></h1>
+            <h1 class="animated zoomIn" style="font-size: 150%;">Zakaria Ridouh <small>Geek. Programmer. High Schooler.</small></h1>
             <br>
         </div>
 
-        <div id="about">
+        <div class="animated zoomIn" id="about">
             <br>
             <h2>
             <i class="material-icons md-36 ">face</i>
@@ -404,7 +401,7 @@
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">Made with <i class="fa fa-heart"></i> by Zakaria Ridouh.</small>
+                <small class="copyright">Made with <i class="animated infinite pulse fa fa-heart"></i> by Zakaria Ridouh.</small>
         </div>
         <!--//container-->
         </footer>
@@ -413,224 +410,7 @@
     </center>
 
 </body>
-<style>
-    /*
-alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
-*/
-    
-    a:hover,
-    a:visited,
-    a:link,
-    a:active {
-        text-decoration: none;
-    }
-    
-    a {
-        color: #0083e8;
-    }
-    
-    body {
-        color: white;
-    }
-    
-    @-webkit-viewport {
-        width: device-width;
-    }
-    
-    @-moz-viewport {
-        width: device-width;
-    }
-    
-    @-ms-viewport {
-        width: device-width;
-    }
-    
-    @-o-viewport {
-        width: device-width;
-    }
-    
-    @viewport {
-        width: device-width;
-    }
-    
-    body {
-        align-items: center;
-        background-image: url('assets/images/earth.png');
-        /* center it */
-        background-position: center center;
-        /* Scale it nicely to the element */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        text-align: center;
-        color: white;
-    }
-    
-    #intro {
-        /*
-    *Padding is inside element (and affects the actual size of the element, margin is outside 
-    *padding-top: 20%;
-    *padding-bottom: 30%;
-    */
-        margin-top: 25%;
-        margin-bottom: 50%;
-        margin-left: 4.5%;
-        font-size: 5em;
-        text-align: left;
-        color: white;
-    }
-    
-    #about {
-        text-align: center;
-        align-items: center;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.2);
-        padding: 2.5%;
-        color: white;
-    }
-    
-    #code {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #projects {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #books {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #movies {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-        font-size: 70%;
-    }
-    
-    #music {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #other {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #contact {
-        color: white;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #footer {
-        color: white;
-        text-align: bottom;
-        text-decoration: none;
-        width: 99%;
-    }
-    
-    #snitch {
-        height: 100px;
-        width: 100px;
-        position: absolute;
-    }
-    
-    #note {
-        margin: 5%;
-        padding: 2.5%;
-        align: center;
-        background-color: blueviolet;
-        background: rgba(0, 0, 0, 0.5);
-        width: 85%;
-        color: white;
-    }
-    
-    #copy {
-        align-items: bottom;
-        background-color: beige;
-        color: black;
-        padding: 0.5%;
-    }
-    
-    .material-icons.md-18 {
-        font-size: 18px;
-    }
-    
-    .material-icons.md-24 {
-        font-size: 24px;
-    }
-    
-    .material-icons.md-36 {
-        font-size: 36px;
-    }
-    
-    .material-icons.md-48 {
-        font-size: 48px;
-    }
-    
-    .material-icons.md-dark {
-        color: rgba(0, 0, 0, 0.54);
-    }
-    
-    .material-icons.md-dark.md-inactive {
-        color: rgba(0, 0, 0, 0.26);
-    }
-    
-    .material-icons.md-light {
-        color: rgba(255, 255, 255, 1);
-    }
-    
-    .material-icons.md-light.md-inactive {
-        color: rgba(255, 255, 255, 0.3);
-    }
-    
-    .footer {
-        background: #32383e;
-        color: #fff;
-        padding: 10px 0;
-    }
-    
-    .footer .copyright {
-        line-height: 1.6;
-        color: #a1aab4;
-        font-size: 14px;
-    }
-    
-    .footer a {
-        color: #fff;
-    }
-    
-    .footer .fa-heart {
-        color: #fb866a;
-    }
-</style>
+
 <script>
     //Popup overlay code! 
     $('#exampleModal').on('show.bs.modal', function (event) {
