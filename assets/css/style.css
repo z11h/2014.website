@@ -65,44 +65,45 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
     }
     
     #about {
+        width: 75%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2.5%;
+        color: white;
+    }
+    
+    #code {
+        text-align: center;
+        text-decoration: none;
+        width: 75%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2.5%;
+        color: white;
+    }
+    
+    #projects {
+        
+        text-align: center;
+        text-decoration: none;
+        width: 75%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2.5%;
+        text-color: white;
+    }
+    
+    #books {
 
+        text-align: center;
         width: 75%;
         background: rgba(0, 0, 0, 0.2);
         padding: 2.5%;
         color: white;
     }
     
-    #code {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #projects {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
-    #books {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-    
     #movies {
         color: white;
         text-align: center;
         width: 75%;
-        background: rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.2);
         padding: 2.5%;
         font-size: 70%;
     }

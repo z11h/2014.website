@@ -68,14 +68,18 @@
 
     <!-- Google Font Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <script>
-    new WOW().init();
+        new WOW().init();
     </script>
-
+    <style>
+        body {
+            color: white;
+        }
+    </style>
 </head>
 
-<body class="animated fadeInUpBig">
+<body class="wow fadeInUpBig">
 
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--transparent">
@@ -88,9 +92,9 @@
                 <nav class="mdl-navigation">
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="#about">About</a>
                     <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="assets/pages/cv.html">Portfolio/CV</a>
-                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Projects</a>
-                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Entertainement</a>
-                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="">Contact</a>
+                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="#projects">Projects</a>
+                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="#books">Entertainement</a>
+                    <a class="mdl-button mdl-js-button mdl-button--white mdl-js-ripple-effect" style="color:white" href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
@@ -98,7 +102,7 @@
             <span class="mdl-layout-title">Zakaria Ridouh</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="#about">About</a>
-                <a class="mdl-navigation__link" href="#portfolio">Portfolio/CV</a>
+                <a class="mdl-navigation__link" href="assets/pages/cv.html">Portfolio/CV</a>
                 <a class="mdl-navigation__link" href="#code">Code</a>
                 <a class="mdl-navigation__link" href="#projects">Projects</a>
                 <a class="mdl-navigation__link" href="#books">Books</a>
@@ -116,102 +120,140 @@
 
         <div id="intro">
             <br>
-            <h1 class="animated zoomIn" style="font-size: 150%;">Zakaria Ridouh <small>Geek. Programmer. High Schooler.</small></h1>
+            <h1 class="wow zoomIn" style="font-size: 150%;"> Zakaria Ridouh <small>Geek. Programmer. High Schooler.</small></h1>
             <br>
         </div>
 
-        <div class="animated zoomIn" id="about">
-            <br>
-            <h2>
-            <i class="material-icons md-36 ">face</i>
+        <div class="wow zoomIn" data-wow-offset="5" id="about">
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             Hey, Im Zak!
-          </h2>
+            </h2>
 
-            <p class="lead ">Hey there! My name is Zakaria Ridouh, but my friends call me Zak. <small>I'm a 15 year old high school student and I love to code! I'm interested in anything that works. I also <b>love</b> hackathons and making things with my friends!</p>
+            <p class="lead ">Hey there! My name is Zakaria Ridouh, but my friends call me Zak. <small>I'm a 15 year old high school student and I love to code! I'm interested in anything that I can fiddle with. I also <b>love</b> hackathons and making things with my friends!</p>
             <p>My Favorite OS: <b>Windows</b> although I currently run Mac (<b>OS X 10.11</b>)</p>
             <p>My Favorite Languages (yes, programing languages): <b>Ruby</b> (for now)</p>
-            <hr width="15% " align="center " noshade></hr>
+            <hr width="20% " align="center " noshade></hr>
             <p class="lead ">Hackathons</p>
             <p>I've attended some hackathons, and its been an <b>ABSOLUTE</b> blast every single time!</p>
-            <hr width="15% " align="center " noshade></hr>
+            <br>
+            <hr width="20% " align="center " noshade></hr>
+            <br>
             <p class="lead ">Portfolio/CV</p>
-            <p> Check out my portfolio neat (online) <a href="pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">here</a> or you can download it <a href="pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">here</a></p>
-            <p> Check out my JSON version (online) <a href="pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">here</a> or you can download it <a href="pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">here</a></p>
-    
+            <p> Check out my portfolio neat (online) 
+            <a href="assets/pages/cv.html" class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect" target="_blank" role="button">here
+            </a> 
+            or you can download it <a href="assets/pages/cv.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+            here</a>
+            </p>
+            <p>
+             Check out my JSON version (online) 
+             <a href="href="assets/pages/cv.json " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+             here
+             </a> 
+             or you can download it 
+             <a href="href="assets/pages/cv.json " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+             here</a>
+             </p>
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
-        <br>
-        <hr width="25% " align="center " noshade></hr>
-        <br>
+        <br></br>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
+        <br></br>
 
-        <div id="code ">
+        <div class="wow zoomIn" data-wow-offset="5" id="code">
             
 
-            <h2>
-            <i class="fa fa-code fa-lg "></i>
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
+            <i class="fa fa-code fa-lg"></i>
             CODE!
-            <i class="fa fa-code fa-lg "></i>
-                    </h2>
+            </h2>
             <p class="lead ">I love to code, here is a brief intro to my world of Code!</p>
-
-            <p>My Github has lots of cool projects that im working on but here is a breif preview!</p>
-            <a href="# ">
+            <p>My Github has lots of cool projects that im working on but here is a breif preview of some of the fun stuff I do!</p>
+            <a href="https://github.com/zakariaridouh">
                 <p>Code Project 1</p>
             </a>
-            <a href="# ">
+            <a href="https://github.com/zakariaridouh">
                 <p>Code Project 2</p>
             </a>
-            <a href="# ">
+            <a href="https://github.com/zakariaridouh">
                 <p>Code Project 3</p>
             </a>
-            <a href="# ">
+            <a href="https://github.com/zakariaridouh">
                 <p>Code Project 4</p>
             </a>
-            <a href="# ">
+            <a href="https://github.com/zakariaridouh">
                 <p>Code Project 5</p>
             </a>
-            <a href="pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/code.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
-
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
 
-        <br>
-        <hr width="25% " align="center " noshade>
-        <br>
+        <br></br>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
+        <br></br>
 
-        <div id="projects ">
+        <div class="wow zoomIn" id="projects ">
 
-            <h2>
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             <i class="fa fa-suitcase fa-lg "></i>
             Projects!
-            <i class="fa fa-suitcase fa-lg "></i>
             </h2>
 
             <p class="lead ">Projects - the ones not related to Code go here!</p>
             <a href="# ">
-                <p>Code Project 1</p>
+                <p>Project 1</p>
             </a>
             <a href="# ">
-                <p>Code Project 2</p>
+                <p>Project 2</p>
             </a>
             <a href="# ">
-                <p>Code Project 3</p>
+                <p>Project 3</p>
             </a>
             <a href="# ">
-                <p>Code Project 4</p>
+                <p>Project 4</p>
             </a>
             <a href="# ">
-                <p>Code Project 5</p>
+                <p>Project 5</p>
             </a>
             <!-- Read More! -->
-            <a href="pages/projects.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/projects.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
 
 
         <br>
-        <hr width="35% " align="center " noshade>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
         <br>
 
         <!-- Possible Entertainement Section here
@@ -224,12 +266,11 @@
         </div>
       -->
 
-        <div id="books ">
+        <div class="wow zoomIn" data-wow-offset="5" id="books ">
             <br>
-            <h2>
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             <i class="fa fa-book fa-lg "></i>
             Books!
-            <i class="fa fa-book fa-lg "></i>
           </h2>
 
             <p class="lead ">I love reading book, here are some of my all time favorites along with some personal ratings!</p>
@@ -251,20 +292,30 @@
                 <p>Book 5</p>
             </a>
             <!-- Read More! -->
-            <a href="pages/books.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/books.html " class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
         </div>
         <br>
-        <hr width="35% " align="center " noshade>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
         <br>
 
         <!-- Movies -->
 
-        <div id="movies ">
+        <div class="wow zoomIn" data-wow-offset="5" id="movies ">
             <br>
-            <h2>
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             <i class="fa fa-film fa-lg "></i>
             Movies!
             <i class="fa fa-film fa-lg "></i>
@@ -272,47 +323,65 @@
             <p class="lead ">I love watching movies, here are some of my all time favorite!</p>
             <p></p>
             <!-- Flat button with ripple -->
-            <a href="pages/movies.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/movies.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
 
-            <br>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
         </div>
 
         <br>
-        <hr width="40% " align="center " noshade>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
         <br>
 
-        <div id="music ">
+        <div class="wow zoomIn" data-wow-offset="5" id="music ">
 
-            <h2>
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             <i class="fa fa-music fa-lg "></i>
              Music!
             <i class="fa fa-music fa-lg "></i>
                 </h2>
             <p class="lead ">I don't really listen to much music, but when I do, it's the best of the best (IMO)!</p>
 
-            <a href="pages/music.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/music.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
 
 
         <br>
-        <hr width="40% " align="center " noshade>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
         <br>
 
         <!-- Other! -->
 
-        <div id="other ">
-            <h2>
+        <div class="wow zoomIn" data-wow-offset="5" id="other ">
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             Other Stuff
           </h2>
             <p class="lead ">Other Stuff goes here!</p>
             <p>WIP</p>
-            <a href="pages/other.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
+            <a href="assets/pages/other.html " class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect " target="_blank " role="button ">
                    - Read More
                 </a>
 
@@ -333,16 +402,26 @@
                 <footer> By <cite title="Author ">Francis of Assisi</cite></footer>
             </blockquote>
             <br>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
 
         <br>
-        <hr width="25% " align="center " noshade>
+        <hr class="wow fadeInLeftBig" data-wow-offset="7" width="40% " align="center " noshade></hr>
         <br>
 
         <!-- Contact -->
 
-        <div id="contact ">
-            <h2>
+        <div class="wow zoomIn" data-wow-offset="5" id="contact ">
+            <h2 class="wow fadeInLeftBig" data-wow-offset="7">
             <i class="fa fa-envelope fa-lg "></i> Contact <i class="fa fa-envelope fa-lg "></i>
           </h2>
 
@@ -372,22 +451,33 @@
                             </form>
                         </div>
                         <div class="mdl-spinner mdl-js-spinner is-active"></div>
-                        <div class="modal-footer">
+                            <div class="modal-footer">
                             <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect " data-dismiss="modal "><i class="material-icons ">cancel</i> Close</button>
                             <button type="button" class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect "><i class="material-icons ">send</i> Send message</button>
                         </div>
                     </div>
                 </div>
-</div>
+            </div>
         </div>
         <!-- EASTER EGGS! -->
 
-        <div id="note">
+        <div class="wow zoomIn" data-wow-offset="5" id="note">
             <p>P.S There are 25 Easter Eggs in this site, try to find them all!</p>
-            <p>This site is Open Source! <a href="https://github.com/TheMightyCraken/themightycraken.github.io "><i class="fa fa-github-alt "> GitHub</i></a>, if you find a
-                <a href="https://github.com/TheMightyCraken/themightycraken.github.io/issues "> <i class="fa fa-bug "></i> Bug</a> please report it!</p>
+            <p>This site is Open Source! <a href="https://github.com/ZakariaRidouh/themightycraken.github.io "><i class="fa fa-github-alt "> GitHub</i></a>, if you find a
+                <a href="https://github.com/ZakariaRidouh/themightycraken.github.io/issues "> <i class="fa fa-bug "></i> Bug</a> please report it!</p>
         </div>
-
+<br>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Intro Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1254616029917386"
+     data-ad-slot="7071475359"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
         <footer id="footer ">
 
             <p> Version: 0.0.4 </p>
@@ -398,10 +488,10 @@
             </div>
 
         </footer>
-    <!-- ******FOOTER****** --> 
+    <!-- FOOTER with <3 --> 
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">Made with <i class="animated infinite pulse fa fa-heart"></i> by Zakaria Ridouh.</small>
+                <small class="copyright">Made with <i class="wow infinite pulse fa fa-heart"></i> by Zakaria Ridouh.</small>
         </div>
         <!--//container-->
         </footer>
