@@ -1,6 +1,7 @@
 @charset "UTF-8";
     /*
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
+https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0kQ6it3HmjfzVO8ynOVWBjXT=w1920-h1080-rw-no
 */
     
     a:hover,
@@ -40,7 +41,7 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
     
     body {
         align-items: center;
-        background-image: url('../images/earth.png');
+        background-image: url(../images/backplanet.png);
         /* center it */
         background-position: center center;
         /* Scale it nicely to the element */
@@ -51,7 +52,7 @@ alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-
         color: white;
     }
     #intro {
-        /*
+    /*
     *Padding is inside element (and affects the actual size of the element, margin is outside 
     *padding-top: 20%;
     *padding-bottom: 30%;
