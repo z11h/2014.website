@@ -133,12 +133,12 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
         padding: 2.5%;
     }
     
-    #footer {
+    /*#footer {
         color: white;
         text-align: bottom;
         text-decoration: none;
         width: 99%;
-    }
+    }*/
     
     #snitch {
         height: 100px;
@@ -200,6 +200,9 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
         color: #fff;
         padding: 10px 0;
     }
+    #footer{
+        background: #505050 !important;
+    }
     
     .footer .copyright {
         line-height: 1.6;
@@ -214,3 +217,4 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
     .footer .fa-heart {
         color: #fb866a;
     }
+
