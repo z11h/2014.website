@@ -16,7 +16,7 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
     }
     
     body {
-        color: white;
+        color: white !important;
     }
     
     @-webkit-viewport {
@@ -65,20 +65,21 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
         color: white;
     }
     
-    #about {
-        width: 75%;
-        background: rgba(0, 0, 0, 0.4);
+    #about, #code, #projects, #books, #movies, #music, #other, #contact {
+        width: 95%;
+        background: white;
         padding: 2.5%;
-        color: white;
+        color: black;
+        border-radius: 6px;
     }
-    
+ /*   
     #code {
         text-align: center;
         text-decoration: none;
         width: 75%;
-        background: rgba(0, 0, 0, 0.4);
+        background: white;
         padding: 2.5%;
-        color: white;
+        color: black;
     }
     
     #projects {
@@ -86,25 +87,25 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
         text-align: center;
         text-decoration: none;
         width: 75%;
-        background: rgba(0, 0, 0, 0.4);
+        background: white;
         padding: 2.5%;
-        text-color: white;
+        color: black;
     }
     
     #books {
 
         text-align: center;
         width: 75%;
-        background: rgba(0, 0, 0, 0.2);
+        background: white;
         padding: 2.5%;
-        color: white;
+        color: black;
     }
     
     #movies {
-        color: white;
+        color: black;
         text-align: center;
         width: 75%;
-        background: rgba(0, 0, 0, 0.2);
+        background: white;
         padding: 2.5%;
         font-size: 70%;
     }
@@ -133,18 +134,12 @@ https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0k
         padding: 2.5%;
     }
     
-    /*#footer {
-        color: white;
-        text-align: bottom;
-        text-decoration: none;
-        width: 99%;
-    }*/
-    
     #snitch {
         height: 100px;
         width: 100px;
         position: absolute;
     }
+    */
     
     #note {
         margin: 5%;
