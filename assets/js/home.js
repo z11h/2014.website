@@ -1,8 +1,8 @@
 // Easter Egg #1
-    console.log("Easter Egg #1! Code: C0N501E");
+console.log("Easter Egg #1! Code: C0N501E");
 
-     console.log("Easter Egg hint: I open at the close.");
-     //Vive L'Algerie!
+console.log("Easter Egg hint: I open at the close.");
+//Vive L'Algerie!
 
 /*animate return to top! cudose to http://www.paulund.co.uk/how-to-create-an-animated-scroll-to-top-with-jquery
 $(document).ready(function(){
