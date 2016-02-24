@@ -27,13 +27,13 @@
   <!-- Mobile features -->
   <link rel="apple-touch-startup-image" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon.ico">
-  <link rel="apple-touch-icon" type="image/png" href="favicon.ico">
+  <link rel="apple-touch-icon" type="image/ico" href="favicon.ico">
   <link rel="icon" sizes="144x144" href="favicon.ico">
   <link rel="icon" sizes="192x192" href="favicon.ico">
 
   <!-- Add to homescreen for Chrome on Android + Colored Tilebar on Chrome Android -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#483D8B">
+  <meta name="theme-color" content="#193d79">
 
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -44,11 +44,11 @@
   <!-- Tile icon for Windows 10 (144x144 + tile color) -->
   <meta name="msapplication-TileImage" content="favicon.ico">
   <meta name="msapplication-square310x310logo" content="favicon.ico">
-  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="msapplication-TileColor" content="#193d79">
 
   <!--Website Details-->
   <meta name="author" content="Zakaria Ridouh">
-  <meta property="og:url" content="www.zakaria.xyz" />
+  <meta property="og:url" content="zakaria.xyz" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Zakaria Ridouh" />
   <meta property="og:description" content="Zakaria Ridouh's personal page!" />
@@ -424,7 +424,9 @@
     var showToastButton = document.querySelector('#demo-show-toast');
     showToastButton.addEventListener('click', function() {
       'use strict';
-      var data = {message: 'Console.Log U Hax0r'};
+      var data = {
+        message: 'Console.Log U Hax0r'
+      };
       snackbarContainer.MaterialSnackbar.showSnackbar(data);
     });
   }());
