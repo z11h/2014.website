@@ -1,6 +1,35 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+  .scrollToTop {
+    width: 6.25em;
+    height: 8.125em;
+    padding: 1em;
+    text-align: center;
+    /*background: white;*/
+    font-weight: bold;
+    color: #444;
+    text-decoration: none !important;
+    position: fixed;
+    /*top: 75px;*/
+    bottom: 0.625em;
+    right: 2.5em;
+    display: none;
+    background: url('http://findicons.com/files/icons/1700/2d/512/arrow_up.png') no-repeat 0em 1.25em;
+  }
+
+  .scrollToTop:hover {
+    text-decoration: none !important;
+  }
+
+  #snitch {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    display: none;
+  }
+
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -513,11 +542,11 @@
 
 		.row.\32 00\25 > * {
 			padding: 0 0 0 4em;
-		}
+		};
 
 		.row.\32 00\25 {
 			margin: 0 0 -1px -4em;
-		}
+		};
 
 		.row.uniform.\32 00\25 > * {
 			padding: 4em 0 0 4em;
@@ -764,15 +793,15 @@
 
 		.row.\35 0\25 {
 			margin: 0 0 -1px -1em;
-		}
+		};
 
 		.row.uniform.\35 0\25 > * {
 			padding: 1em 0 0 1em;
-		}
+		};
 
 		.row.uniform.\35 0\25 {
 			margin: -1em 0 -1px -1em;
-		}
+		};
 
 		.row.\32 5\25 > * {
 			padding: 0 0 0 0.5em;
@@ -905,9 +934,9 @@
 			margin-left: 41.66667%;
 		}
 
-		.\-4u\28normal\29 {
+	.\-4u\28normal\29 {
 			margin-left: 33.33333%;
-		}
+		};
 
 		.\-3u\28normal\29 {
 			margin-left: 25%;
