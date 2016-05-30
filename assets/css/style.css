@@ -1,214 +1,124 @@
 @charset "UTF-8";
-    /*
+
+/*
 alt background: http://cdn4.wccftech.com/wp-content/uploads/2015/02/20-low-poly-wallpapers-4.jpg
 https://lh3.googleusercontent.com/U2qPJody0DsmwDb2j_Eal15StdvmllwYX9AzTnbv9GwE0kQ6it3HmjfzVO8ynOVWBjXT=w1920-h1080-rw-no
 */
 
-    a:hover,
-    a:visited,
-    a:link,
-    a:active {
-        text-decoration: none;
-    }
-
-    a {
-        color: #0083e8;
-    }
-
-    body {
-        color: white !important;
-    }
-
-    @-webkit-viewport {
-        width: device-width;
-    }
-
-    @-moz-viewport {
-        width: device-width;
-    }
-
-    @-ms-viewport {
-        width: device-width;
-    }
-
-    @-o-viewport {
-        width: device-width;
-    }
-
-    @viewport {
-        width: device-width;
-    }
-
-    body {
-        align-items: center;
-        background-image: url(../images/backplanet.png);
-        /* center it */
-        background-position: center center;
-        /* Scale it nicely to the element */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        text-align: center;
-        color: white;
-    }
-    #intro {
-    /*
-    *Padding is inside element (and affects the actual size of the element, margin is outside
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+a {
+  color: #0083e8;
+}
+body {
+  color: white !important;
+}
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+body {
+  align-items: center;
+  background-image: url(../images/backplanet.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+#intro {
+  /*
+    *Padding is inside element (and affects the actual size of the element, margin is outside)
     *padding-top: 20%;
     *padding-bottom: 30%;
     */
-        margin-top: 25%;
-        margin-bottom: 50%;
-        margin-left: 4.5%;
-        font-size: 5em;
-        text-align: left;
-        color: white;
-    }
-
-    #about, #code, #projects, #books, #movies, #music, #other, #contact {
-        width: 95%;
-        background: white;
-        padding: 2.5%;
-        color: black;
-        border-radius: 6px;
-    }
- /*
-    #code {
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: white;
-        padding: 2.5%;
-        color: black;
-    }
-
-    #projects {
-
-        text-align: center;
-        text-decoration: none;
-        width: 75%;
-        background: white;
-        padding: 2.5%;
-        color: black;
-    }
-
-    #books {
-
-        text-align: center;
-        width: 75%;
-        background: white;
-        padding: 2.5%;
-        color: black;
-    }
-
-    #movies {
-        color: black;
-        text-align: center;
-        width: 75%;
-        background: white;
-        padding: 2.5%;
-        font-size: 70%;
-    }
-
-    #music {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-
-    #other {
-        color: white;
-        text-align: center;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-
-    #contact {
-        color: white;
-        text-decoration: none;
-        width: 75%;
-        background: rgba(0, 0, 0, 0.1);
-        padding: 2.5%;
-    }
-
-    #snitch {
-        height: 100px;
-        width: 100px;
-        position: absolute;
-    }
-    */
-
-    #note {
-        margin: 5%;
-        padding: 2.5%;
-        align: center;
-        background-color: blueviolet;
-        background: rgba(0, 0, 0, 0.5);
-        width: 85%;
-        color: white;
-    }
-
-    #copy {
-        align-items: bottom;
-        background-color: beige;
-        color: black;
-        padding: 0.5%;
-    }
-
-    .material-icons.md-18 {
-        font-size: 18px;
-    }
-
-    .material-icons.md-24 {
-        font-size: 24px;
-    }
-
-    .material-icons.md-36 {
-        font-size: 36px;
-    }
-
-    .material-icons.md-48 {
-        font-size: 48px;
-    }
-
-    .material-icons.md-dark {
-        color: rgba(0, 0, 0, 0.54);
-    }
-
-    .material-icons.md-dark.md-inactive {
-        color: rgba(0, 0, 0, 0.26);
-    }
-
-    .material-icons.md-light {
-        color: rgba(255, 255, 255, 1);
-    }
-
-    .material-icons.md-light.md-inactive {
-        color: rgba(255, 255, 255, 0.3);
-    }
-
-    .footer {
-        background: #32383e;
-        color: #fff;
-        padding: 10px 0;
-    }
-    #footer{
-        background: #505050 !important;
-    }
-
-    .footer .copyright {
-        line-height: 1.6;
-        color: #a1aab4;
-        font-size: 14px;
-    }
-
-    .footer a {
-        color: #fff;
-    }
-
-    .footer .fa-heart {
-        color: #fb866a;
-    }
+  margin-top: 25%;
+  margin-bottom: 50%;
+  margin-left: 4.5%;
+  font-size: 5em;
+  text-align: left;
+  color: white;
+}
+#about, #code, #projects, #books, #movies, #music, #other, #contact {
+  width: 95%;
+  background: white;
+  padding: 2.5%;
+  color: black;
+  border-radius: 6px;
+}
+#snitch {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+#note {
+  margin: 5%;
+  padding: 2.5%;
+  align: center;
+  background-color: blueviolet;
+  background: rgba(0, 0, 0, 0.5);
+  width: 85%;
+  color: white;
+}
+#copy {
+  align-items: bottom;
+  background-color: beige;
+  color: black;
+  padding: 0.5%;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer {
+  background: #32383e;
+  color: #fff;
+  padding: 10px 0;
+}
+#footer {
+  background: #505050 !important;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 14px;
+}
+.footer a {
+  color: #fff;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
