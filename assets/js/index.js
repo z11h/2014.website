@@ -11,6 +11,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
     }, 5000);
   }, "konami-code");
 }).listen();
+// Init WOW
 new WOW().init();
 (function() {
   'use strict';
@@ -26,7 +27,6 @@ new WOW().init();
 
 //Scroll to top
 $(document).ready(function() {
-
   //Check to see if the window is top if not then display button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -42,5 +42,4 @@ $(document).ready(function() {
     }, 850);
     return false;
   });
-
 });
