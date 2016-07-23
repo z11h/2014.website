@@ -15,10 +15,10 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
 new WOW().init();
 (function() {
   'use strict';
-  var snackbarContainer = document.querySelector('#demo-toast-example');
-  var showToastButton = document.querySelector('#demo-show-toast');
+  let snackbarContainer = document.getElementById('demo-toast-example');
+  let showToastButton = document.getElementById('demo-show-toast');
   showToastButton.addEventListener('click', function() {
-    var data = {
+    let data = {
       message: 'Console.Log U Hax0r'
     };
     snackbarContainer.MaterialSnackbar.showSnackbar(data);
