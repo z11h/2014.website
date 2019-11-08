@@ -1,6 +1,3 @@
-// Easter Egg #1
-console.log("Easter Egg #1! Code: C0N501E");
-
 console.log("Easter Egg hint: I open at the close.");
 //Vive L'Algerie!
 
@@ -22,6 +19,9 @@ new WOW().init();
       message: 'Console.Log U Hax0r'
     };
     snackbarContainer.MaterialSnackbar.showSnackbar(data);
+    // Easter Egg #1
+  console.log("Easter Egg #1! Code: C0N501E");
+
   });
 }());
 
